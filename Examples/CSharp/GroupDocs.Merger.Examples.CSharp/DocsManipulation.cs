@@ -253,9 +253,9 @@ namespace GroupDocs.Merger.Examples.CSharp
         /// Swap by page numbers for document of unknown format
         /// </summary>
         /// <param name="fileName">source file</param>
-        public static void SwapProtectedDocumentOfUnknownFormat(string fileName)
+        public static void SwapDocumentOfUnknownFormat(string fileName)
         {
-            //ExStart:SwapProtectedDocumentOfUnknownFormat
+            //ExStart:SwapDocumentOfUnknownFormat
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
             int pageNumber1 = 3;
@@ -265,10 +265,10 @@ namespace GroupDocs.Merger.Examples.CSharp
             // Main method.
             DocumentResult result = new DocumentHandler().SwapPages(openFile, pageNumber1, pageNumber2);
             Stream documentStream = result.Stream;
-            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + FileFormat.Pdf);
+            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + result.FileFormat);
             documentStream.CopyTo(fileStream);
             documentStream.Close();
-            //ExEnd:SwapProtectedDocumentOfUnknownFormat
+            //ExEnd:SwapDocumentOfUnknownFormat
         }
 
         /// <summary>
