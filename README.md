@@ -1,27 +1,27 @@
-# GroupDocs.Merger for .NET Examples
+# GroupDocs.Merger for .NET
 
-This package contains C# Example Projects for [GroupDocs.Merger for .NET](#) and sample input templates used in the examples.
+This package contains [Examples](#) for [GroupDocs.Merger for .NET](#) that will help you understand API's working and write your own applications.
+
+GroupDocs.Merger for .NET is a back-end document manipulation API. It allows to split, remove, reorder or combine pages to a document of supported format. It also manage documents password protection. You can remove or set password protection to any supported document. Furthermore, multiple files can be combined and arranged to a single document. 
 
 <p align="center">
-  <a title="Download complete GroupDocs.Merger for .NET Example source code" href="#">
+
+  <a title="Download complete GroupDocs.Merger for .NET source code" href="#">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
+Directory | Description
+--------- | -----------
+[Examples](#)  | Contains the package of all .NET examples (C#) and sample files that will help you learn how to use product features.
 
-The package contains C# examples. Follow the given steps to proceed with project build:
+# Resources
 
-* Extract the downloaded project and open the solution file in Visual Studio
-* Right click on solution and press "Enable NuGet package Restore"
-* Build the project.
-
-# Prerequisite
-
-+ Visual Studio 2012 or later.
-+ GroupDocs.Merger 18.5.
-
-
-In other case, it is possible that Visual Studio is unable to automatically add APIs references due to Visual Studio version differences. In this case, please add references of missing APIs manually.
++ **Website:** [www.groupdocs.com](http://www.groupdocs.com)
++ **Product Home:** [GroupDocs.Merger for .NET](#)
++ **Download:** [Download GroupDocs.Merger for .NET](#)
++ **Documentation:** [GroupDocs.Merger for .NET Documentation](#)
++ **Forum:** [GroupDocs.Merger for .NET Forum](#r)
++ **Blog:** [GroupDocs.Merger for .NET Blog](#)
 
 
-For more details, visit  [How to Run Examples](#).
