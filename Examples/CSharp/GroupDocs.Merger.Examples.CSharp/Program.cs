@@ -12,49 +12,49 @@ namespace GroupDocs.Merger.Examples.CSharp
         {
             //CommonUtilities.LoadLicenseFromFile();
 
-            DocsManipulation.ChangePageOrderOfProtectedKnownFormatDoc("demo.docx");
+            //DocsManipulation.ChangePageOrderOfProtectedKnownFormatDoc("demo.docx");
 
-            DocsManipulation.ChangePageOrderUnKnownFormatDoc("demo.pdf");
+            //DocsManipulation.ChangePageOrderUnKnownFormatDoc("demo.pdf");
 
-            DocsManipulation.RemovePagesFromProtectedKnownFormatDoc("sample.xlsx");
+            //DocsManipulation.RemovePagesFromProtectedKnownFormatDoc("sample.xlsx");
 
-            DocsManipulation.RemovePagesFromUnknownFormatDoc("source.pptx");
+            //DocsManipulation.RemovePagesFromUnknownFormatDoc("source.pptx");
 
-            DocsManipulation.RemovePagesRangeFromProtectedKnownFormatDoc("demo.docx");
+            //DocsManipulation.RemovePagesRangeFromProtectedKnownFormatDoc("demo.docx");
 
-            DocsManipulation.RemovePagesRangeFromUnknownFormatDoc("demo.docx");
+            //DocsManipulation.RemovePagesRangeFromUnknownFormatDoc("demo.docx");
 
-            DocsManipulation.SplittingToOnePageDocuments("demo.pdf");
+            //DocsManipulation.SplittingToOnePageDocuments("demo.pdf");
 
-            DocsManipulation.SplittingByPageRanges("demo.pdf");
+            //DocsManipulation.SplittingByPageRanges("demo.pdf");
 
-            DocsManipulation.SwapProtectedDocumentOfKnownFormat("demo.pdf");
+            //DocsManipulation.SwapProtectedDocumentOfKnownFormat("demo.pdf");
 
-            DocsManipulation.SwapProtectedDocumentOfUnknownFormat("demo.pdf");
+            //DocsManipulation.SwapDocumentOfUnknownFormat("demo.pdf");
 
-            DocsManipulation.TrimDocumentKnownFormat("demo.pdf");
+            //DocsManipulation.TrimDocumentKnownFormat("demo.pdf");
 
-            DocsManipulation.TrimDocumentUnknownFormat("OutPut.pdf");
+            //DocsManipulation.TrimDocumentUnknownFormat("OutPut.pdf");
 
-            DocsManipulation.JoinDocumentsOfKnownFormat("demo.pdf", "demo2.pdf");
+            //DocsManipulation.JoinDocumentsOfKnownFormat("demo.pdf", "demo2.pdf");
 
-            DocsManipulation.JoinDocumentsOfUnknownFormat("demo.pdf", "demo2.pdf");
+            //DocsManipulation.JoinDocumentsOfUnknownFormat("demo.pdf", "demo2.pdf");
 
-            DocsManipulation.CheckProtectionOfKnownFormatDoc("demo.docx");
+            //DocsManipulation.CheckProtectionOfKnownFormatDoc("demo.docx");
 
-            DocsManipulation.CheckProtectionOfUnknownFormatDoc("demo.pdf");
+            //DocsManipulation.CheckProtectionOfUnknownFormatDoc("demo.pdf");
 
-            DocsManipulation.RemoveProtectionOfKnownFormatDoc("demo.docx");
+            //DocsManipulation.RemoveProtectionOfKnownFormatDoc("demo.docx");
 
-            DocsManipulation.RemoveProtectionOfUnknownFormatDoc("demo.pdf");
+            //DocsManipulation.RemoveProtectionOfUnknownFormatDoc("demo.pdf");
 
-            DocsManipulation.SetProtectionForKnownFormatDocs("demo.docx");
+            //DocsManipulation.SetProtectionForKnownFormatDocs("demo.docx");
 
-            DocsManipulation.SetProtectionForUnknownFormatDocs("demo.pdf");
+            //DocsManipulation.SetProtectionForUnknownFormatDocs("demo.pdf");
 
-            DocsManipulation.UpdateProtectionForKnownForamtDocs("OutPut.docx");
+            //DocsManipulation.UpdateProtectionForKnownForamtDocs("OutPut.docx");
 
-            DocsManipulation.UpdateProtectionForUnknownForamtDocs("demo.pdf");
+            //DocsManipulation.UpdateProtectionForUnknownForamtDocs("demo.pdf");
 
         }
     }

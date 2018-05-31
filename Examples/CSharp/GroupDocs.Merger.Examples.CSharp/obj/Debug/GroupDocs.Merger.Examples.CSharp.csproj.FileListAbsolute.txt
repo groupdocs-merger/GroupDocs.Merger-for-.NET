@@ -10,3 +10,11 @@ D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bi
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.exe
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.pdb
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.exe.config
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.exe
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.pdb
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.exe
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.pdb
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.dll
+C:\Users\atir\Desktop\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.xml
