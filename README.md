@@ -2,7 +2,7 @@
 
 This package contains [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples) for [GroupDocs.Merger for .NET](#) that will help you understand API's working and write your own applications.
 
-GroupDocs.Merger for .NET is a back-end document manipulation API. It allows to split, remove, reorder or combine pages to a document of supported format. It also manage documents password protection. You can remove or set password protection to any supported document. Furthermore, multiple files can be combined and arranged to a single document. 
+GroupDocs.Merger for .NET is a back-end document manipulation API. It allows to swap, remove or reorder pages in a document of supported format. It also manage documents password protection. You can remove or set password protection to any supported document. Furthermore, multiple files can be combined and arranged to a single document. 
 
 <p align="center">
 
