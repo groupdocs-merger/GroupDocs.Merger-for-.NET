@@ -16,127 +16,177 @@
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Doc">
       <summary>
-            (Word format) Doc (Microsoft Word format)
+            (Word format) Microsoft Word Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Docm">
       <summary>
-            Docm 
+            (Word format) Word Open XML Macro-Enabled Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Docx">
       <summary>
-            Docx
+            (Word format) Microsoft Word Open XML Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Dot">
       <summary>
-            Dot
+            (Word format) Microsoft Word Template.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Dotm">
       <summary>
-            Dotm
+            (Word format) Word Open XML Macro-Enabled Document Template.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Dotx">
       <summary>
-            Dotx
+            (Word format) Word Open XML Document Template.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Rtf">
       <summary>
-            RTF (Rich Text format)
+            (Word format) RTF (Rich Text format)
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Txt">
       <summary>
-            Text (Plain text)
+            (Word format) Text (Plain text).
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Odt">
       <summary>
-            Odt
+            (Word format) OpenDocument Text Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Ott">
       <summary>
-            Ott
+            (Word format) OpenDocument Text Document Template.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Ppt">
       <summary>
-            Microsoft Presentation format
+            (Slide format) Microsoft Presentation format.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Pps">
       <summary>
-            PPS
+            (Slide format) PowerPoint Slide Show.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Pptx">
       <summary>
-            PPTX
+            (Slide format) Microsoft PowerPoint Open XML Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Ppsx">
       <summary>
-            PPSX ???????
+            (Slide format) PowerPoint Open XML Slide Show.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Odp">
       <summary>
-            Odp for Open Office suite.
+            (Slide format) OpenDocument Presentation.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Otp">
       <summary>
-            Otp for Open Office suite.
+            (Slide format) OpenDocument Presentation Template.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xls">
       <summary>
-            Represents an Excel97-2003 xls file.
+            (Cell format) Represents an Excel97-2003 xls file.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xlsx">
       <summary>
-            Represents Office Open XML spreadsheetML workbook or template, with or without macros.
+            (Cell format) Microsoft Excel Open XML Document.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xlsm">
       <summary>
-            XLSM 
+            (Cell format) Excel Open XML Macro-Enabled Spreadsheet
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xlsb">
       <summary>
-            XLSB 
+            (Cell format) Excel Binary Workbook 
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Csv">
       <summary>
-            Comma-Separated Values 
+            (Cell format) Comma-Separated Values 
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Ods">
       <summary>
-            OpenDocument Spreadsheet for Open Office suite.
+            (Cell format) OpenDocument Spreadsheet for Open Office suite.
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Pdf">
       <summary>
-            PDF
+            Portable Document Format File
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Epub">
       <summary>
-            Epub
+            Open eBook File
             </summary>
     </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xps">
       <summary>
-            XPS
+            XML Paper Specification File
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vsdx">
+      <summary>
+            Visio Drawing (Visio 2013)
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vsdm">
+      <summary>
+            Visio Macro-Enabled Drawing (Visio 2013)
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vssx">
+      <summary>
+            Visio Stencil File.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vssm">
+      <summary>
+            Visio Macro-Enabled Stencil File.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vtx">
+      <summary>
+            Visio Template XML File.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vstm">
+      <summary>
+            Visio Macro-Enabled Drawing Template.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vdx">
+      <summary>
+            Visio Drawing XML File.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vstx">
+      <summary>
+            Visio Drawing Template (Visio 2013).
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Vsx">
+      <summary>
+            Visio Stencil XML File.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Format.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain.Format</b> namespace exposes supported formats.
             </summary>
     </member>
     <member name="T:GroupDocs.Merger.Domain.Options.MoveOptions">
@@ -331,6 +381,11 @@
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
     </member>
+    <member name="T:GroupDocs.Merger.Domain.Options.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain.Options</b> namespace provides classes for setting method options dependent on method.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Domain.Result.DocumentResult">
       <summary>
             Represents resultant document.
@@ -362,6 +417,11 @@
     <member name="M:GroupDocs.Merger.Domain.Result.MultiDocumentResult.#ctor">
       <summary>
             Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Result.MultiDocumentResult" /> class.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Result.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain.Result</b> namespace provides classes for result of methods.
             </summary>
     </member>
     <member name="T:GroupDocs.Merger.Domain.Security.RemovePasswordOptions">
@@ -416,6 +476,11 @@
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
     </member>
+    <member name="T:GroupDocs.Merger.Domain.Security.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain.Security</b> namespace provides classes for setting options for security methods.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Domain.JoinItem">
       <summary>
             Represents document to be joined with other documents.
@@ -454,12 +519,23 @@
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
     </member>
+    <member name="T:GroupDocs.Merger.Domain.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain</b> namespace provides common classes to operate with GroupDocs.Merger.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.NamespaceGroupDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain</b> namespace provides common classes to operate with GroupDocs.Merger.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Exceptions.CorruptedOrDamagedFileException">
       <summary>
             Thrown during document load, when the document appears to be corrupted and impossible to load.
             </summary>
     </member>
     <member name="T:GroupDocs.Merger.Exceptions.InvalidPasswordException">
+      <inheritdoc />
       <summary>
             Thrown if a password for opening password-protected document is incorrect.
             </summary>
@@ -498,6 +574,11 @@
             </summary>
       <param name="message">The message that describes the error.</param>
     </member>
+    <member name="T:GroupDocs.Merger.Exceptions.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Exception</b> namespace provides classes for exceptions which can occur while working with a document.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Handler.DocumentHandler">
       <summary>
             Handler for manipulating documents.
@@ -516,6 +597,59 @@
             </summary>
       <param name="joinItems">The documents to join</param>
       <returns>Joined document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.MovePage(System.IO.Stream,GroupDocs.Merger.Domain.Options.MoveOptions)">
+      <summary>
+            Moves page to a new position within document.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="options">The options.</param>
+      <returns>Document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.MovePage(System.IO.Stream,System.Int32,System.Int32)">
+      <summary>
+            Moves page to a new position within document.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="pageNumberToMove">The page number to move.</param>
+      <param name="newPageNumber">The new page number.</param>
+      <returns>Document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,GroupDocs.Merger.Domain.Options.PagesOptions)">
+      <summary>
+            Removes pages from document. Page numbers for removing have to be specified.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="options">The options.</param>
+      <returns>Document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,System.Collections.Generic.List{System.Int32})">
+      <summary>
+            Removes pages from document.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="pageNumbers">The page numbers.</param>
+      <returns>Document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,GroupDocs.Merger.Domain.Options.RangeOptions)">
+      <summary>
+            Removes pages from document.
+            </summary>
+      <param name="documentStream">
+      </param>
+      <param name="options">
+      </param>
+      <returns>Document.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,System.Int32,System.Int32,GroupDocs.Merger.Domain.Options.RangeMode)">
+      <summary>
+            Removes pages from document.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="startPageNumber">The start page number.</param>
+      <param name="endPageNumber">The end page number.</param>
+      <param name="mode">The mode.</param>
+      <returns>Document.</returns>
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.AddPassword(System.IO.Stream,GroupDocs.Merger.Domain.Security.AddPasswordOptions)">
       <summary>
@@ -611,40 +745,21 @@
       <param name="rangeOptions">The range options.</param>
       <returns>Multiple documents.</returns>
     </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,GroupDocs.Merger.Domain.Options.PagesOptions)">
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.SwapPages(System.IO.Stream,GroupDocs.Merger.Domain.Options.SwapOptions)">
       <summary>
-            Removes pages from document. Page numbers for removing have to be specified.
+            Swaps two pages within document.
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="options">The options.</param>
       <returns>Document.</returns>
     </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,System.Collections.Generic.List{System.Int32})">
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.SwapPages(System.IO.Stream,System.Int32,System.Int32)">
       <summary>
-            Removes pages from document.
+            Swaps two pages within document.
             </summary>
       <param name="documentStream">The document stream.</param>
-      <param name="pageNumbers">The page numbers.</param>
-      <returns>Document.</returns>
-    </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,GroupDocs.Merger.Domain.Options.RangeOptions)">
-      <summary>
-            Removes pages from document.
-            </summary>
-      <param name="documentStream">
-      </param>
-      <param name="options">
-      </param>
-      <returns>Document.</returns>
-    </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,System.Int32,System.Int32,GroupDocs.Merger.Domain.Options.RangeMode)">
-      <summary>
-            Removes pages from document.
-            </summary>
-      <param name="documentStream">The document stream.</param>
-      <param name="startPageNumber">The start page number.</param>
-      <param name="endPageNumber">The end page number.</param>
-      <param name="mode">The mode.</param>
+      <param name="firstOfPair">The first page to swap.</param>
+      <param name="secondOfPair">The second page to swap.</param>
       <returns>Document.</returns>
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.Trim(System.IO.Stream,GroupDocs.Merger.Domain.Options.PagesOptions)">
@@ -663,39 +778,15 @@
       <param name="rangeOptions">The range options.</param>
       <returns>Document</returns>
     </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.MovePage(System.IO.Stream,GroupDocs.Merger.Domain.Options.MoveOptions)">
+    <member name="T:GroupDocs.Merger.Handler.NamespaceDoc">
       <summary>
-            Moves page to a new position within document.
+            The <b>GroupDocs.Merger.Handler</b> namespace provides classes for working with main document handler.
             </summary>
-      <param name="documentStream">The document stream.</param>
-      <param name="options">The options.</param>
-      <returns>Document.</returns>
     </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.MovePage(System.IO.Stream,System.Int32,System.Int32)">
+    <member name="T:GroupDocs.Merger.Handler.NamespaceGroupDoc">
       <summary>
-            Moves page to a new position within document.
+            The <b>GroupDocs.Merger.Handler</b> namespace provides classes for working with main document handler.
             </summary>
-      <param name="documentStream">The document stream.</param>
-      <param name="pageNumberToMove">The page number to move.</param>
-      <param name="newPageNumber">The new page number.</param>
-      <returns>Document.</returns>
-    </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.SwapPages(System.IO.Stream,GroupDocs.Merger.Domain.Options.SwapOptions)">
-      <summary>
-            Swaps two pages within document.
-            </summary>
-      <param name="documentStream">The document stream.</param>
-      <param name="options">The options.</param>
-      <returns>Document.</returns>
-    </member>
-    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.SwapPages(System.IO.Stream,System.Int32,System.Int32)">
-      <summary>
-            Swaps two pages within document.
-            </summary>
-      <param name="documentStream">The document stream.</param>
-      <param name="firstOfPair">The first page to swap.</param>
-      <param name="secondOfPair">The second page to swap.</param>
-      <returns>Document.</returns>
     </member>
     <member name="T:GroupDocs.Merger.License">
       <summary>
@@ -774,6 +865,101 @@
             Gets consumption quantity
             </summary>
       <returns>consumption quantity</returns>
+    </member>
+    <member name="T:GroupDocs.Merger.NamespaceDoc">
+      <summary>
+            The scope for GroupDocs.Merger classes. 
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.NamespaceGroupDoc">
+      <summary>
+            The scope for GroupDocs.Merger classes. 
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.NamespaceDoc">
+      <summary>
+            The scope for GroupDocs.Viewer classes. 
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.NamespaceGroupDoc">
+      <summary>
+            The scope for GroupDocs.Viewer classes. 
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Config.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Config</b> namespace provides classes for customizing GroupDocs.Viewer behaviour.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Converter.Options.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Converter.Options</b> namespace provides classes that allow to specify additional options when rendering documents.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain</b> namespace provides common classes to operate with GroupDocs.Viewer.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.NamespaceGroupDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain</b> namespace provides common classes to operate with GroupDocs.Viewer.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.Containers.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain.Containers</b> namespace provides classes for working with document rendering results.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.Html.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain.Html</b> namespace provides classes for working with document HTML representation.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.Image.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain.Image</b> namespace provides classes for working with document image representation.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Domain.Options.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Domain.Options</b> namespace provides classes for setting rendering options dependent on document type.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Exception.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Exception</b> namespace provides classes for exceptions which can occur while working with a document.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Handler.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Handler</b> namespace provides classes for working with rendering handlers.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Handler.NamespaceGroupDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Handler</b> namespace provides classes for working with rendering handlers.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Handler.Cache.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Handler.Cache</b> namespace exposes interfaces which should be implemented to customize caching behaviour.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Handler.Input.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Handler.Input</b> namespace exposes interfaces which should be implemented to customize document loading behaviour.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Localization.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Localization</b> namespace provides classes for localization.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Viewer.Storage.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Viewer.Storage</b> namespace provides members, that allow users to implement their own storage system.
+            </summary>
     </member>
   </members>
 </doc>
