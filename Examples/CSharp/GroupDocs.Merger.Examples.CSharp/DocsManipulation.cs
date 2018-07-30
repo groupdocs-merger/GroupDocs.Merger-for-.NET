@@ -307,7 +307,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ExStart:TrimDocumentUnknownFormat
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparation.
-            string password = "setpassword123";
+            string password = "SomePasswordString";
             int startPage = 1;
             int endPage = 5;
             RangeMode mode = RangeMode.AllPages;
@@ -469,7 +469,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ExStart:SetProtectionForKnownFormatDocs
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
-            string password = "123";
+            string password = "SomePasswordString";
             AddPasswordOptions options = new AddPasswordOptions(FileFormat.Docx, password);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
@@ -491,7 +491,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ExStart:SetProtectionForUnknownFormatDocs
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
-            string password = "setpassword123";
+            string password = "SomePasswordString";
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
@@ -511,7 +511,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ExStart:UpdateProtectionForKnownForamtDocs
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
-            string currentPassword = "secureit123";
+            string currentPassword = "SomePasswordString";
             string newPassword = "newpass123";
             UpdatePasswordOptions options = new UpdatePasswordOptions(FileFormat.Docx, currentPassword, newPassword);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
@@ -534,7 +534,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ExStart:UpdateProtectionForUnknownForamtDocs
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
-            string currentPassword = "setpassword123";
+            string currentPassword = "SomePasswordString";
             string newPassword = "NewPasswordString";
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
