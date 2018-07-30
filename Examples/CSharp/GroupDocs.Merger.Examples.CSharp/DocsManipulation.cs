@@ -275,7 +275,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         /// Trim document of known format by page numbers list 
         /// </summary>
         /// <param name="fileName">source file</param>
-        public static void trimDocumentByPageNumList(string fileName)
+        public static void TrimDocumentByPageNumList(string fileName)
         {
             //ExStart:TrimDocumentKnownFormat
             string sourceFile = CommonUtilities.sourcePath + fileName;
@@ -302,7 +302,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         /// Trim document of known format by page numbers range
         /// </summary>
         /// <param name="fileName">source file</param>
-        public static void trimDocumentByPageNumRange(string fileName)
+        public static void TrimDocumentByPageNumRange(string fileName)
         {
             //ExStart:TrimDocumentUnknownFormat
             string sourceFile = CommonUtilities.sourcePath + fileName;
