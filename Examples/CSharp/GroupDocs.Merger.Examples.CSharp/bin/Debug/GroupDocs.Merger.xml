@@ -184,6 +184,11 @@
             Visio Stencil XML File.
             </summary>
     </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.One">
+      <summary>
+            Note document (OneNote)
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Domain.Format.NamespaceDoc">
       <summary>
             The <b>GroupDocs.Merger.Domain.Format</b> namespace exposes supported formats.
