@@ -56,6 +56,13 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             //DocsManipulation.UpdateProtectionForUnknownForamtDocs("demo.pdf");
 
+            //CommonUtilities.GetSupportedFormats();
+
+            //DocsManipulation.ChangePageOrientationOfProtectedKnownFormatDoc("demo.docx");
+            //DocsManipulation.ChangePageOrientationUnKnownFormatDoc("demo.docx");
+
+            //DocsManipulation.RotatePagesOfProtectedKnownFormatDoc("demo.pdf");
+            //DocsManipulation.RotatePagesUnKnownFormatDoc("demo.pdf");
         }
     }
 }

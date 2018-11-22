@@ -75,7 +75,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //Set password, as document is password protected
             string password = "somepassword";
             List<int> pages = new List<int>();
-         
+
             pages.Add(2);
             PagesOptions pagesOptions = new PagesOptions(FileFormat.Xlsx, password, pages);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
@@ -546,5 +546,94 @@ namespace GroupDocs.Merger.Examples.CSharp
             documentStream.Close();
             //ExEnd:UpdateProtectionForUnknownForamtDocs
         }
+
+        /// <summary>
+        /// Change page orientation of known formatted docs
+        /// </summary>
+        /// <param name="fileName">source file name</param>
+        public static void ChangePageOrientationOfProtectedKnownFormatDoc(string fileName)
+        {
+            //ExStart:ChangePageOrientationOfProtectedKnownFormatDoc
+            string sourceFile = CommonUtilities.sourcePath + fileName;
+            //Set password, as document is password protected
+            string password = "somepassword";
+            OrientationOptions pagesOptions = new OrientationOptions(OrientationMode.Landscape, FileFormat.Docx, password, new[] { 1, 2 });
+            Stream documentExample = new FileStream(sourceFile, FileMode.Open);
+
+
+            // Main method.
+            DocumentResult result = new DocumentHandler().ChangeOrientation(documentExample, pagesOptions);
+            Stream documentStream = result.Stream; 
+            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + result.FileFormat);
+            documentStream.CopyTo(fileStream);
+            documentStream.Close();
+            //ExEnd:ChangePageOrientationOfProtectedKnownFormatDoc
+        }
+
+         /// <summary>
+         /// change page orientation of unknown formatted docs
+         /// </summary>
+         /// <param name="fileName">source file</param>
+        public static void ChangePageOrientationUnKnownFormatDoc(string fileName)
+        {
+            //ExStart:ChangePageOrientationUnKnownFormatDoc
+            string sourceFile = CommonUtilities.sourcePath + fileName; 
+            Stream openFile = new FileStream(sourceFile, FileMode.Open);
+
+            // Main method.
+            DocumentResult result = new DocumentHandler().ChangeOrientation(openFile, OrientationMode.Landscape, new[] { 1, 2 });
+            Stream documentStream = result.Stream;
+            //output file
+            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + result.FileFormat);
+            documentStream.CopyTo(fileStream);
+            documentStream.Close();
+            //ExEnd:ChangePageOrientationUnKnownFormatDoc
+        }
+
+
+
+
+
+        /// <summary>
+        /// Rotate pages of known formatted docs
+        /// </summary>
+        /// <param name="fileName">source file name</param>
+        public static void RotatePagesOfProtectedKnownFormatDoc(string fileName)
+        {
+            //ExStart:ChangePageOrientationOfProtectedKnownFormatDoc
+            string sourceFile = CommonUtilities.sourcePath + fileName;
+            //Set password, as document is password protected
+            string password = "somepassword";
+
+            RotateOptions pagesOptions = new RotateOptions(FileFormat.Pdf, password, RotateMode.Rotate180, new List<int> { 1, 2 });
+            Stream documentExample = new FileStream(sourceFile, FileMode.Open);
+
+            // Main method.
+            DocumentResult result = new DocumentHandler().RotatePages(documentExample, pagesOptions);
+            Stream documentStream = result.Stream;
+            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + result.FileFormat);
+            documentStream.CopyTo(fileStream);
+            documentStream.Close();
+            //ExEnd:ChangePageOrientationOfProtectedKnownFormatDoc
+        }
+
+        /// <summary>
+        /// Rotate pages of unknown formatted docs
+        /// </summary>
+        /// <param name="fileName">source file</param>
+        public static void RotatePagesUnKnownFormatDoc(string fileName)
+        {
+            //ExStart:ChangePageOrientationUnKnownFormatDoc
+            string sourceFile = CommonUtilities.sourcePath + fileName;
+            Stream openFile = new FileStream(sourceFile, FileMode.Open);
+
+            DocumentResult result = new DocumentHandler().RotatePages(openFile, RotateMode.Rotate270);
+            Stream documentStream = result.Stream;
+            //output file
+            var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + result.FileFormat);
+            documentStream.CopyTo(fileStream);
+            documentStream.Close();
+            //ExEnd:ChangePageOrientationUnKnownFormatDoc
+        } 
     }
 }
