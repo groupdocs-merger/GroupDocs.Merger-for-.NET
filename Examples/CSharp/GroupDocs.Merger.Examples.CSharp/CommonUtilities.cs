@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GroupDocs.Merger.Domain.Format;
+using GroupDocs.Merger.Handler;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -76,6 +78,16 @@ namespace GroupDocs.Merger.Examples.CSharp
                 Console.WriteLine(ex.Message);
             }
             //ExEnd:MeteredLicense
+        }
+        public static void GetSupportedFormats()
+        {
+            //ExStart:GetSupportedFormats
+            Dictionary<string, FileFormat> documentFormatsContainer = new DocumentHandler().GetSupportedFormats();
+            foreach (KeyValuePair<string, FileFormat> item in documentFormatsContainer)
+            {
+                Console.WriteLine("Key: {0}, format: {1}", item.Key, item.Value);
+            }
+            //ExEnd:GetSupportedFormats
         }
     }
 }
