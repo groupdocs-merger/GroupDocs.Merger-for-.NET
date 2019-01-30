@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GroupDocs.Merger">
-      <HintPath>..\..\packages\GroupDocs.Merger.18.7.0\lib\GroupDocs.Merger.dll</HintPath>
+      <HintPath>..\..\packages\GroupDocs.Merger.18.11.0\lib\GroupDocs.Merger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

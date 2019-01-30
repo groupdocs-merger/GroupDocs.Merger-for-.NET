@@ -32,9 +32,9 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             //DocsManipulation.SwapDocumentOfUnknownFormat("demo.pdf");
 
-            //DocsManipulation.TrimDocumentKnownFormat("demo.pdf");
+            //DocsManipulation.TrimDocumentByPageNumList("demo.pdf");
 
-            //DocsManipulation.TrimDocumentUnknownFormat("OutPut.pdf");
+            //DocsManipulation.TrimDocumentByPageNumRange("OutPut.pdf");
 
             //DocsManipulation.JoinDocumentsOfKnownFormat("demo.pdf", "demo2.pdf");
 
@@ -56,6 +56,13 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             //DocsManipulation.UpdateProtectionForUnknownForamtDocs("demo.pdf");
 
+            //CommonUtilities.GetSupportedFormats();
+
+            //DocsManipulation.ChangePageOrientationOfProtectedKnownFormatDoc("demo.docx");
+            //DocsManipulation.ChangePageOrientationUnKnownFormatDoc("demo.docx");
+
+            //DocsManipulation.RotatePagesOfProtectedKnownFormatDoc("demo.pdf");
+            //DocsManipulation.RotatePagesUnKnownFormatDoc("demo.pdf");
         }
     }
 }
