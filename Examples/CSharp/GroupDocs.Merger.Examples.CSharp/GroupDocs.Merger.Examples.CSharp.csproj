@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GroupDocs.Merger">
-      <HintPath>..\..\packages\GroupDocs.Merger.18.11.0\lib\GroupDocs.Merger.dll</HintPath>
+    <Reference Include="GroupDocs.Merger, Version=19.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\GroupDocs.Merger.19.1.0\lib\GroupDocs.Merger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -54,9 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

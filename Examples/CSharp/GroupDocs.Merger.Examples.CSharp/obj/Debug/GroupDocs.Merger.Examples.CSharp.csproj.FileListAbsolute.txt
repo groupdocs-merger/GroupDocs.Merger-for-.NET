@@ -22,3 +22,10 @@ D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bi
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.pdb
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.dll
 D:\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.xml
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.exe
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.pdb
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.exe.config
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.exe
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.pdb
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.dll
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.xml

@@ -606,19 +606,19 @@
       <param name="endNumber">The end number.</param>
       <param name="mode">The mode.</param>
     </member>
-    <member name="F:GroupDocs.Merger.Domain.Options.RangeOptions.StartPageNumber">
+    <member name="P:GroupDocs.Merger.Domain.Options.RangeOptions.StartPageNumber">
       <summary>
             Gets or sets the start page number.
             </summary>
       <value>The start page number.</value>
     </member>
-    <member name="F:GroupDocs.Merger.Domain.Options.RangeOptions.EndPageNumber">
+    <member name="P:GroupDocs.Merger.Domain.Options.RangeOptions.EndPageNumber">
       <summary>
             Gets or sets the end page number.
             </summary>
       <value>The end page number.</value>
     </member>
-    <member name="F:GroupDocs.Merger.Domain.Options.RangeOptions.Mode">
+    <member name="P:GroupDocs.Merger.Domain.Options.RangeOptions.Mode">
       <summary>
             Gets or sets the mode.
             </summary>
@@ -770,19 +770,19 @@
             </summary>
       <seealso cref="T:GroupDocs.Merger.Domain.Options.IHasSourceFormat" />
     </member>
-    <member name="F:GroupDocs.Merger.Domain.JoinItem.Document">
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.Document">
       <summary>
             Gets or sets the document.
             </summary>
       <value>The document.</value>
     </member>
-    <member name="F:GroupDocs.Merger.Domain.JoinItem.FileFormat">
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.FileFormat">
       <summary>
             Gets or sets the file format.
             </summary>
       <value>The file format.</value>
     </member>
-    <member name="F:GroupDocs.Merger.Domain.JoinItem.Password">
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.Password">
       <summary>
             Gets or sets the password.
             </summary>
