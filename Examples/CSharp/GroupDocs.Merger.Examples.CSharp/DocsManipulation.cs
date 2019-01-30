@@ -77,7 +77,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             List<int> pages = new List<int>();
 
             pages.Add(2);
-            PagesOptions pagesOptions = new PagesOptions(FileFormat.Xlsx, password, pages);
+            RemovePagesOptions pagesOptions = new RemovePagesOptions(FileFormat.Xlsx, password, pages);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             DocumentResult result = new DocumentHandler().RemovePages(openFile, pagesOptions);
@@ -125,9 +125,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             int startPage = 2;
             int endPage = 4;
             RangeMode mode = RangeMode.AllPages;
-            RangeOptions rangeOptions = new RangeOptions(startPage, endPage, mode);
-            rangeOptions.Password = password;
-            rangeOptions.FileFormat = FileFormat.Docx;
+            RemovePagesOptions rangeOptions = new RemovePagesOptions(FileFormat.Docx, password,startPage, endPage, mode);
+            
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
@@ -177,11 +176,11 @@ namespace GroupDocs.Merger.Examples.CSharp
             List<int> pages = new List<int>();
             pages.Add(3);
             pages.Add(4);
-            PagesOptions pagesSplitOptions = new PagesOptions(FileFormat.Pdf, password, pages);
+            SplitOptions splitOptions = new SplitOptions(FileFormat.Pdf, password, pages);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
-            MultiDocumentResult splitResult = new DocumentHandler().Split(openFile, pagesSplitOptions);
+            MultiDocumentResult splitResult = new DocumentHandler().Split(openFile, splitOptions);
             for (int i = 0; i < splitResult.Documents.Count; i++)
             {
                 // First document 
@@ -207,13 +206,12 @@ namespace GroupDocs.Merger.Examples.CSharp
             int startPage = 5;
             int endPage = 8;
             RangeMode mode = RangeMode.EvenPages;
-            RangeOptions rangeOptions = new RangeOptions(startPage, endPage, mode);
-            rangeOptions.Password = password;
-            rangeOptions.FileFormat = FileFormat.Pdf;
+            SplitOptions splitOptions = new SplitOptions(FileFormat.Pdf, password,startPage, endPage, mode);
+           
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
-            MultiDocumentResult splitResult = new DocumentHandler().Split(openFile, rangeOptions);
+            MultiDocumentResult splitResult = new DocumentHandler().Split(openFile, splitOptions);
             for (int i = 0; i < splitResult.Documents.Count; i++)
             {
                 Stream documentStream = splitResult.Documents[i].Stream;
@@ -286,11 +284,11 @@ namespace GroupDocs.Merger.Examples.CSharp
             List<int> pages = new List<int>();
             pages.Add(pageNumber1);
             pages.Add(pageNumber2);
-            PagesOptions pagesOptions = new PagesOptions(FileFormat.Pdf, password, pages);
+            TrimOptions trimOptions = new TrimOptions(FileFormat.Pdf, password, pages);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
-            DocumentResult result = new DocumentHandler().Trim(openFile, pagesOptions);
+            DocumentResult result = new DocumentHandler().Trim(openFile, trimOptions);
             Stream documentStream = result.Stream;
             var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + FileFormat.Pdf);
             documentStream.CopyTo(fileStream);
@@ -311,13 +309,12 @@ namespace GroupDocs.Merger.Examples.CSharp
             int startPage = 1;
             int endPage = 5;
             RangeMode mode = RangeMode.AllPages;
-            RangeOptions rangeOptions = new RangeOptions(startPage, endPage, mode);
-            rangeOptions.Password = password;
-            rangeOptions.FileFormat = FileFormat.Pdf;
+            TrimOptions trimOptions = new TrimOptions(FileFormat.Pdf, password,startPage, endPage, mode);
+           
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
-            DocumentResult result = new DocumentHandler().Trim(openFile, rangeOptions);
+            DocumentResult result = new DocumentHandler().Trim(openFile, trimOptions);
             Stream documentStream = result.Stream;
             var fileStream = File.Create(CommonUtilities.outputPath + "OutPut." + FileFormat.Pdf);
             documentStream.CopyTo(fileStream);
