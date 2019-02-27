@@ -114,6 +114,21 @@
             (Cell format) Excel Binary Workbook 
             </summary>
     </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xltm">
+      <summary>
+            (Cell format) Microsoft Excel Macro-Enabled Template
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xltx">
+      <summary>
+            (Cell format) Microsoft Excel Template.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Xlt">
+      <summary>
+            (Cell format) Microsoft Excel 97-2003 Template.
+            </summary>
+    </member>
     <member name="F:GroupDocs.Merger.Domain.Format.FileFormat.Csv">
       <summary>
             (Cell format) Comma-Separated Values 
@@ -1063,7 +1078,7 @@
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.ChangeOrientation(System.IO.Stream,GroupDocs.Merger.Domain.Options.OrientationMode,System.Int32[])">
       <summary>
-            Makes new document from document of unknown format and applis new orientation mode for specified pages.
+            Makes new document from document of unknown format and applies new orientation mode for specified pages.
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="mode">Mode of page orientation.</param>
@@ -1216,91 +1231,6 @@
     <member name="T:GroupDocs.Merger.NamespaceGroupDoc">
       <summary>
             The scope for GroupDocs.Merger classes. 
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.NamespaceDoc">
-      <summary>
-            The scope for GroupDocs.Viewer classes. 
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.NamespaceGroupDoc">
-      <summary>
-            The scope for GroupDocs.Viewer classes. 
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Config.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Config</b> namespace provides classes for customizing GroupDocs.Viewer behaviour.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Converter.Options.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Converter.Options</b> namespace provides classes that allow to specify additional options when rendering documents.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain</b> namespace provides common classes to operate with GroupDocs.Viewer.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.NamespaceGroupDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain</b> namespace provides common classes to operate with GroupDocs.Viewer.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.Containers.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain.Containers</b> namespace provides classes for working with document rendering results.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.Html.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain.Html</b> namespace provides classes for working with document HTML representation.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.Image.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain.Image</b> namespace provides classes for working with document image representation.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Domain.Options.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Domain.Options</b> namespace provides classes for setting rendering options dependent on document type.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Exception.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Exception</b> namespace provides classes for exceptions which can occur while working with a document.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Handler.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Handler</b> namespace provides classes for working with rendering handlers.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Handler.NamespaceGroupDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Handler</b> namespace provides classes for working with rendering handlers.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Handler.Cache.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Handler.Cache</b> namespace exposes interfaces which should be implemented to customize caching behaviour.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Handler.Input.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Handler.Input</b> namespace exposes interfaces which should be implemented to customize document loading behaviour.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Localization.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Localization</b> namespace provides classes for localization.
-            </summary>
-    </member>
-    <member name="T:GroupDocs.Viewer.Storage.NamespaceDoc">
-      <summary>
-            The <b>GroupDocs.Viewer.Storage</b> namespace provides members, that allow users to implement their own storage system.
             </summary>
     </member>
   </members>

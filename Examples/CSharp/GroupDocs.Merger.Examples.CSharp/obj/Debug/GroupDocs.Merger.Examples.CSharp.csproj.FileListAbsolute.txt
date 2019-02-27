@@ -29,3 +29,4 @@ E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Ex
 E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.Examples.CSharp.pdb
 E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.dll
 E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\bin\Debug\GroupDocs.Merger.xml
+E:\Work Sami\Repos\GroupDocs.Merger-for-.NET\Examples\CSharp\GroupDocs.Merger.Examples.CSharp\obj\Debug\GroupDocs.Merger.Examples.CSharp.csprojResolveAssemblyReference.cache
