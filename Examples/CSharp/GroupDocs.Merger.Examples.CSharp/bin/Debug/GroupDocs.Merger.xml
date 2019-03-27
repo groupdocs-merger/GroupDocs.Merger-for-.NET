@@ -4,6 +4,57 @@
     <name>GroupDocs.Merger</name>
   </assembly>
   <members>
+    <member name="T:GroupDocs.Merger.Domain.Image.Page">
+      <summary>
+            Represents a container for the page.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Image.Page.#ctor(System.Int32)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Image.Page" /> class.
+            </summary>
+      <param name="pageNumber">The page number.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Image.Page.#ctor(System.Int32,System.IO.Stream)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Image.Page" /> class.
+            </summary>
+      <param name="pageNumber">The page number.</param>
+      <param name="stream">The document stream.</param>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.Image.Page.PageNumber">
+      <summary>
+            Page number from original document. Starts from 1.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.Image.Page.DocumentStream">
+      <summary>
+            Stream with image of document page.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Image.PageImage">
+      <summary>
+            Represents a container for the page rendered to Image.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Image.PageImage.#ctor(System.Int32)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Image.PageImage" /> class.
+            </summary>
+      <param name="pageNumber">The page number.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Image.PageImage.#ctor(System.Int32,System.IO.Stream)">
+      <summary>
+            /// Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Image.PageImage" /> class.
+            </summary>
+      <param name="pageNumber">The page number.</param>
+      <param name="stream">The page stream.</param>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Image.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Merger.Domain.Image</b> namespace provides classes for document image representation.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Domain.Format.FileFormat">
       <summary>
             Define file format for methods
@@ -252,6 +303,12 @@
             List of page number on which operation will be applied. Note: first page have number 1.
             </summary>
     </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.PagedOptions.PagesForDocument(System.Int32)">
+      <summary>
+            List of page number on which operation will be applied. Note: first page have number 1.
+            </summary>
+      <param name="documentPageCount">Count of page in document.</param>
+    </member>
     <member name="M:GroupDocs.Merger.Domain.Options.PagedOptions.#ctor">
       <inheritdoc />
       <summary>
@@ -286,6 +343,35 @@
       <param name="endNumber">The end number.</param>
       <param name="mode">The mode.</param>
     </member>
+    <member name="T:GroupDocs.Merger.Domain.Options.ImageOptions">
+      <summary>
+            Describes options for Image representation.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.ImageOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.ImageOptions" /> class.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.ImageOptions.#ctor(System.Collections.Generic.List{System.Int32})">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.ImageOptions" /> class.
+            </summary>
+      <param name="pageNumbers">The page numbers for operation. If it is empty list operation will process all pages.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.ImageOptions.#ctor(System.Collections.Generic.List{System.Int32},GroupDocs.Merger.Domain.Format.FileFormat,System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.ImageOptions" /> class.
+            </summary>
+      <param name="pageNumbers">The page numbers for operation. If it is empty list operation will process all pages.</param>
+      <param name="format">The document format.</param>
+      <param name="password">The password.</param>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.Options.ImageOptions.Resolution">
+      <summary>
+            Vertical resolution.
+            </summary>
+    </member>
     <member name="T:GroupDocs.Merger.Domain.Options.JoinOptions">
       <inheritdoc />
       <summary>
@@ -296,7 +382,7 @@
     <member name="M:GroupDocs.Merger.Domain.Options.JoinOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String)">
       <inheritdoc />
       <summary>
-            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.OrientationOptions" /> class.
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.JoinOptions" /> class.
             </summary>
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
@@ -304,16 +390,25 @@
     <member name="M:GroupDocs.Merger.Domain.Options.JoinOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Int32[])">
       <inheritdoc />
       <summary>
-            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.OrientationOptions" /> class.
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.JoinOptions" /> class.
             </summary>
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
       <param name="pageNumbers">Array with page numbers witch should be affected.</param>
     </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.JoinOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Collections.Generic.List{System.Int32})">
+      <inheritdoc />
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.JoinOptions" /> class.
+            </summary>
+      <param name="fileFormat">The file format.</param>
+      <param name="password">The password.</param>
+      <param name="pageNumbers">List with page numbers witch should be affected.</param>
+    </member>
     <member name="M:GroupDocs.Merger.Domain.Options.JoinOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Int32,System.Int32,GroupDocs.Merger.Domain.Options.RangeMode)">
       <inheritdoc />
       <summary>
-            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.OrientationOptions" /> class.
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.JoinOptions" /> class.
             </summary>
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
@@ -341,6 +436,99 @@
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
       <param name="pageNumbers">The page numbers.</param>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Options.TextSplitMode">
+      <summary>
+            Possible modes for text splitting. 
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Options.TextSplitMode.Lines">
+      <summary>
+            Split lines
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Merger.Domain.Options.TextSplitMode.Interval">
+      <summary>
+            Split Intervals
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Merger.Domain.Options.TextSplitOptions">
+      <inheritdoc />
+      <summary>
+            Options for splitting of text document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.Options.TextSplitOptions.LineNumbers">
+      <summary>
+            Line numbers for text splitting
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.Options.TextSplitOptions.Mode">
+      <summary>
+            Mode for text splitting
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="password">The password.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(System.Int32[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="lineNumbers">Line numbers for text splitting.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(System.Int32[],GroupDocs.Merger.Domain.Options.TextSplitMode)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="lineNumbers">Line numbers for text splitting.</param>
+      <param name="mode">Mode for text splitting.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(System.String,System.Int32[],GroupDocs.Merger.Domain.Options.TextSplitMode)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="password">Password.</param>
+      <param name="lineNumbers">Line numbers for text splitting.</param>
+      <param name="mode">Mode for text splitting.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="fileFormat">The file format.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="fileFormat">The file format.</param>
+      <param name="password">The password.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Int32[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="fileFormat">File format.</param>
+      <param name="password">Password.</param>
+      <param name="lineNumbers">Line numbers for text splitting.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.Options.TextSplitOptions.#ctor(GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Int32[],GroupDocs.Merger.Domain.Options.TextSplitMode)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.Options.TextSplitOptions" /> class.
+            </summary>
+      <param name="fileFormat">File format.</param>
+      <param name="password">Password.</param>
+      <param name="lineNumbers">Line numbers for text splitting.</param>
+      <param name="mode">Mode for text splitting.</param>
     </member>
     <member name="T:GroupDocs.Merger.Domain.Options.TrimOptions">
       <inheritdoc />
@@ -783,25 +971,12 @@
       <summary>
             Represents document to be joined with other documents.
             </summary>
-      <seealso cref="T:GroupDocs.Merger.Domain.Options.IHasSourceFormat" />
     </member>
     <member name="P:GroupDocs.Merger.Domain.JoinItem.Document">
       <summary>
             Gets or sets the document.
             </summary>
       <value>The document.</value>
-    </member>
-    <member name="P:GroupDocs.Merger.Domain.JoinItem.FileFormat">
-      <summary>
-            Gets or sets the file format.
-            </summary>
-      <value>The file format.</value>
-    </member>
-    <member name="P:GroupDocs.Merger.Domain.JoinItem.Password">
-      <summary>
-            Gets or sets the password.
-            </summary>
-      <value>The password.</value>
     </member>
     <member name="M:GroupDocs.Merger.Domain.JoinItem.#ctor(System.IO.Stream)">
       <summary>
@@ -816,6 +991,41 @@
       <param name="document">The document.</param>
       <param name="fileFormat">The file format.</param>
       <param name="password">The password.</param>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.JoinItem.#ctor(System.IO.Stream,GroupDocs.Merger.Domain.Format.FileFormat,System.String,System.Collections.Generic.List{System.Int32})">
+      <summary>
+            Initializes a new instance of the <see cref="T:GroupDocs.Merger.Domain.JoinItem" /> class.
+            </summary>
+      <param name="document">The document.</param>
+      <param name="fileFormat">The file format.</param>
+      <param name="password">The password.</param>
+      <param name="pageNumbers">Page numbers for operation.</param>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.JoinOptions">
+      <summary>
+            Options for joining document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.FileFormat">
+      <summary>
+            File format.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.Password">
+      <summary>
+            Current password to open document.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Merger.Domain.JoinItem.PagesForDocument(System.Int32)">
+      <summary>
+            List of page number on which operation will be applied. Note: first page have number 1.
+            </summary>
+      <param name="documentPageCount">Count of page in document.</param>
+    </member>
+    <member name="P:GroupDocs.Merger.Domain.JoinItem.Pages">
+      <summary>
+            List of page number on which operation will be applied. Note: first page have number 1.
+            </summary>
     </member>
     <member name="T:GroupDocs.Merger.Domain.NamespaceDoc">
       <summary>
@@ -943,7 +1153,7 @@
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.AddPassword(System.IO.Stream,GroupDocs.Merger.Domain.Security.AddPasswordOptions)">
       <summary>
-            Protects document of known format with password. Source document file format must be specified explicitly.
+            Protects document of known format with password. Source document file format should be specified explicitly.
             </summary>
       <param name="documentStream">Unprotected document.</param>
       <param name="addPasswordOptions">The options for specifying password and document file format.</param>
@@ -961,7 +1171,7 @@
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.IsPasswordSet(System.IO.Stream,GroupDocs.Merger.Domain.Format.FileFormat)">
       <summary>
             Checks whether document  of known format is password protected. 
-            Source document file format must be specified explicitly.
+            Source document file format should be specified explicitly.
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="fileFormat">The file format.</param>
@@ -978,7 +1188,7 @@
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePassword(System.IO.Stream,GroupDocs.Merger.Domain.Security.RemovePasswordOptions)">
       <summary>
             Removes password from document of known format. 
-            Source document file format must be specified explicitly.
+            Source document file format should be specified explicitly.
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="removePasswordOptions">The options for specifying document file format and current password.</param>
@@ -996,7 +1206,7 @@
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.UpdatePassword(System.IO.Stream,GroupDocs.Merger.Domain.Security.UpdatePasswordOptions)">
       <summary>
             Updates existing password for document of known format. 
-            Source document file format must be specified explicitly.
+            Source document file format should be specified explicitly.
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="updatePasswordOptions">The options for specifying document file format and current/new passwords.</param>
@@ -1018,6 +1228,14 @@
             </summary>
       <param name="documentStream">The document stream.</param>
       <param name="splitOptions">The split options.</param>
+      <returns>Multiple documents.</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.Split(System.IO.Stream,GroupDocs.Merger.Domain.Options.TextSplitOptions)">
+      <summary>
+            Splits single document of known format to multiple documents.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="splitOptions">The text split options.</param>
       <returns>Multiple documents.</returns>
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.SwapPages(System.IO.Stream,GroupDocs.Merger.Domain.Options.SwapOptions)">
@@ -1084,6 +1302,27 @@
       <param name="mode">Mode of page orientation.</param>
       <param name="pageNumbers">Array of page numbers.</param>
       <returns>Document</returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.GetImages(System.IO.Stream,GroupDocs.Merger.Domain.Options.ImageOptions)">
+      <summary>
+            Get list of page image representations for document of known format.
+            Source document file format should be specified.
+            If format is not specified or "Undefined" it will be detected on the fly.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="imageOptions">The image options.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Merger.Handler.DocumentHandler.GetImages(System.IO.Stream,System.Collections.Generic.List{System.Int32})">
+      <summary>
+            Get list of page image representations for document of unknown format. 
+            Source document file format will be detected on the fly.
+            </summary>
+      <param name="documentStream">The document stream.</param>
+      <param name="pageNumbers">List of page number. First page is 1.</param>
+      <returns>
+      </returns>
     </member>
     <member name="M:GroupDocs.Merger.Handler.DocumentHandler.RemovePages(System.IO.Stream,GroupDocs.Merger.Domain.Options.PagesOptions)">
       <summary>
