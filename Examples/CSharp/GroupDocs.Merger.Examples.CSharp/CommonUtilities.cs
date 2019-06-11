@@ -16,7 +16,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         public const string fileOne = "../../../../Data/Storage/";
         public const string fileTwo = "../../../../Data/Storage/";
         public const string outputPath = "../../../../Data/Output/";
-        public const string licensePath = "../../../../Data/Storage/GroupDocs.Total.lic";
+        public const string licensePath = "E://GroupDocs.Total.lic";
         //ExEnd:CommonProperties
 
         /// <summary>

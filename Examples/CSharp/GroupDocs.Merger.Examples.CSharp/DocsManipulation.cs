@@ -173,10 +173,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             string sourceFile = CommonUtilities.sourcePath + fileName;
             // Preparing.
             string password = "SomePasswordString";
-            List<int> pages = new List<int>();
-            pages.Add(3);
-            pages.Add(4);
-            SplitOptions splitOptions = new SplitOptions(FileFormat.Pdf, password, pages);
+            int[] pages = {3,4};
+            PageSplitOptions splitOptions = new PageSplitOptions(FileFormat.Pdf, password, pages);
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
@@ -206,8 +204,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             int startPage = 5;
             int endPage = 8;
             RangeMode mode = RangeMode.EvenPages;
-            SplitOptions splitOptions = new SplitOptions(FileFormat.Pdf, password,startPage, endPage, mode);
-           
+            PageSplitOptions splitOptions = new PageSplitOptions(FileFormat.Pdf, password,startPage, endPage, mode);
+      
             Stream openFile = new FileStream(sourceFile, FileMode.Open);
 
             // Main method.
