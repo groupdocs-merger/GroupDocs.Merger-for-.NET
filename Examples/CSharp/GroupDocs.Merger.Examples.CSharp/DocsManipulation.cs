@@ -1,5 +1,6 @@
 ﻿using GroupDocs.Merger.Domain;
 using GroupDocs.Merger.Domain.Format;
+using GroupDocs.Merger.Domain.Image;
 using GroupDocs.Merger.Domain.Options;
 using GroupDocs.Merger.Domain.Result;
 using GroupDocs.Merger.Domain.Security;
@@ -629,6 +630,58 @@ namespace GroupDocs.Merger.Examples.CSharp
             documentStream.CopyTo(fileStream);
             documentStream.Close();
             //ExEnd:ChangePageOrientationUnKnownFormatDoc
-        } 
+        }
+
+        /// <summary>
+        /// Get Image Representation Of Document
+        /// </summary>
+        /// <param name="fileName">source file</param>
+        public static void GetImageRepresentationOfDocument(string fileName)
+        {
+            //ExStart:GetImageRepresentationOfDocument
+            string sourceFile = CommonUtilities.sourcePath + fileName;
+            Stream openFile = new FileStream(sourceFile, FileMode.Open);
+           
+            string password = "";           
+            List<int> pageNumbers = new List<int>();
+            pageNumbers.Add(1);
+            pageNumbers.Add(2);
+
+            ImageOptions pagesOptions = new ImageOptions(pageNumbers, FileFormat.Xlsx, password);            
+
+            // Main method.        
+            List<PageImage> images = new DocumentHandler().GetPagePreview(openFile, pagesOptions);
+            PageImage page = images[1];
+            Console.WriteLine(page.PageNumber);
+            //ExEnd:GetImageRepresentationOfDocument
+        }
+
+        /// <summary>
+        /// Join list of imgaes of known format
+        /// </summary>
+        /// <param name="fileOne">first source file</param>
+        /// <param name="fileTwo">second source file</param>
+        public static void JoinImagesOfKnownFormat(string fileOne, string fileTwo)
+        {
+            //ExStart:JoinImagesOfKnownFormat
+            string sourceFile1 = CommonUtilities.fileOne + fileOne;
+            string sourceFile2 = CommonUtilities.fileTwo + fileTwo;
+
+            // Preparing.
+            Stream openFile1 = new FileStream(sourceFile1, FileMode.Open);
+            Stream openFile2 = new FileStream(sourceFile2, FileMode.Open);
+            List<ImageJoinItem> imageItems = new List<ImageJoinItem>();
+            ImageJoinItem item1 = new ImageJoinItem(openFile1, FileFormat.Png, 1,1);
+            imageItems.Add(item1);
+            ImageJoinItem item2 = new ImageJoinItem(openFile2, FileFormat.Bmp, 1,2);
+            imageItems.Add(item2);
+            // Main method.
+            ImageJoinOptions options = new ImageJoinOptions(FileFormat.Png, Order.JoinByColumnFirst);
+
+            ImageJoinItem result = new DocumentHandler().Join(imageItems, options);
+            Stream documentStream = result.ImageStream;
+            
+            //ExEnd:JoinImagesOfKnownFormat
+        }
     }
 }
