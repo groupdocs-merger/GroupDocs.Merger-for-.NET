@@ -64,7 +64,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //DocsManipulation.RotatePagesOfProtectedKnownFormatDoc("demo.pdf");
             //DocsManipulation.RotatePagesUnKnownFormatDoc("demo.pdf");
 
-            //DocsManipulation.GetImageRepresentationOfPages("sample.xlsx");
+            //DocsManipulation.GetImageRepresentationOfDocument("sample.xlsx");
             //DocsManipulation.JoinImagesOfKnownFormat("sample.png", "watermark.bmp");
 
             Console.ReadKey();
