@@ -1,4 +1,6 @@
-﻿using GroupDocs.Merger.Domain.Format;
+﻿using GroupDocs.Merger.Domain;
+using GroupDocs.Merger.Domain.Format;
+using GroupDocs.Merger.Domain.Options;
 using GroupDocs.Merger.Handler;
 using System;
 using System.Collections.Generic;
@@ -88,6 +90,24 @@ namespace GroupDocs.Merger.Examples.CSharp
                 Console.WriteLine("Key: {0}, format: {1}", item.Key, item.Value);
             }
             //ExEnd:GetSupportedFormats
+        }
+
+        public static void GetDocumentInformation(string fileName)
+        {
+            //ExStart:GetDocumentInformation
+            DocumentHandler handler = new DocumentHandler();
+            string sourceFile = CommonUtilities.sourcePath + fileName;
+            string password = "somepassword";
+            Stream openSourceFile = new FileStream(sourceFile, FileMode.Open);
+            
+            // Get information about document
+            DocumentInfo resultInfo = handler.GetDocumentInfo(openSourceFile);
+
+            // Get information about password protected document.
+            DocumentInfo docInfo = new DocumentHandler().GetDocumentInfo(openSourceFile, password);
+
+            Console.WriteLine("Size: {0}, Pages: {1}", resultInfo.Size, resultInfo.Pages);
+            //ExEnd:GetDocumentInformation
         }
     }
 }
