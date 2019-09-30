@@ -1,2 +1,0 @@
-D:\GroupDocs_Merger_VSPlugin\out\Installer GroupDocs.Merger for .NET API Examples.msi
-D:\GroupDocs_Merger_VSPlugin\out\Installer GroupDocs.Merger for .NET API Examples.wixpdb
