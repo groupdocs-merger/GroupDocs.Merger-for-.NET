@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Net;
-
+using GroupDocs.Merger.Domain;
+using GroupDocs.Merger.Domain.Options;
 
 namespace GroupDocs.Merger.Examples.CSharp
 {
@@ -13,10 +14,11 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static void Run()
         {
             string url = "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples/Resources/SampleFiles/Pdf?raw=true";
-            
+
             using (Stream stream = GetRemoteFile(url))
             {
-                using (Merger merger = new Merger(stream))
+                LoadOptions loadOptions = new LoadOptions(FileType.PDF);
+                using (Merger merger = new Merger(stream, loadOptions))
                 {
                     Console.WriteLine($"Document loaded from URL successfully.");
                 }
@@ -29,7 +31,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
                | SecurityProtocolType.Tls11
                | SecurityProtocolType.Tls12
-               | SecurityProtocolType.Ssl3;
+               /*| SecurityProtocolType.Ssl3*/;
 
             WebRequest request = WebRequest.Create(url);
 
@@ -48,5 +50,4 @@ namespace GroupDocs.Merger.Examples.CSharp
             return fileStream;
         }
     }
-}              
-     
+}
