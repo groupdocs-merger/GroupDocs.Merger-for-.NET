@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -8,7 +7,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>GroupDocs.Merger.Examples.CSharp</RootNamespace>
     <AssemblyName>GroupDocs.Merger.Examples.CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -31,62 +31,35 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="GroupDocs.Merger, Version=19.9.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>packages\GroupDocs.Merger.19.9.0\lib\GroupDocs.Merger.dll</HintPath>
-    </Reference>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net20'">
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromLocalDisk.cs" />
-    <Compile Include="AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromStream.cs" />
-    <Compile Include="AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromUrl.cs" />
-    <Compile Include="AdvancedUsage\Loading\LoadPasswordProtectedDocument.cs" />
-    <Compile Include="BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
-    <Compile Include="BasicUsage\SecurityOperations\AddDocumentPassword.cs" />
-    <Compile Include="BasicUsage\SecurityOperations\CheckDocumentPasswordProtection.cs" />
-    <Compile Include="BasicUsage\SecurityOperations\UpdateDocumentPassword.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitDocument\SplitToMultiPageDocuments.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRangeWithFilter.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToLineRanges.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\ChangePageOrientation.cs" />
-    <Compile Include="BasicUsage\GenerateDocumentPagesPreview.cs" />
-    <Compile Include="BasicUsage\GetDocumentInformation.cs" />
-    <Compile Include="BasicUsage\GetSupportedFileTypes.cs" />
-    <Compile Include="BasicUsage\MultipleDocumentOperations\JoinMultipleDocuments.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\MovePage.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\RemovePages.cs" />
-    <Compile Include="BasicUsage\SecurityOperations\RemoveDocumentPassword.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToSeparateLines.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SwapPages.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\RotatePages.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByRange.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByNumbers.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRange.cs" />
-    <Compile Include="BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePages.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="QuickStart\HelloWorld.cs" />
-    <Compile Include="QuickStart\SetLicenseFromFile.cs" />
-    <Compile Include="QuickStart\SetLicenseFromStream.cs" />
-    <Compile Include="QuickStart\SetMeteredLicense.cs" />
-    <Compile Include="RunExamples.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+  <ItemGroup Condition="'$(TargetFramework)' != 'net20'">
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
+    <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Net.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
+    <!-- For internal dependencies -->
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.4" />
+    <PackageReference Include="Mono.Posix.NETStandard" Version="1.0.0" />
+    <PackageReference Include="SkiaSharp" Version="1.68.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.3.0" />
+    <PackageReference Include="System.Security.Permissions" Version="4.5.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.0" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net20'">
+    <Reference Include="GroupDocs.Merger">
+      <HintPath>..\Packages\lib\net20\GroupDocs.Merger.dll</HintPath>
+    </Reference>
   </ItemGroup>
-  <ItemGroup />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup Condition="'$(TargetFramework)' != 'net20'">
+    <Reference Include="GroupDocs.Merger">
+      <HintPath>..\Packages\lib\netstandard2.0\GroupDocs.Merger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
