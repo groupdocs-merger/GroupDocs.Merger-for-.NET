@@ -37,7 +37,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="GroupDocs.Merger" Version="19.10.0-alpha-20191027120420" />
+    <PackageReference Include="GroupDocs.Merger" Version="19.10.0-alpha-20191028114516" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' != 'net20'">
     <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
