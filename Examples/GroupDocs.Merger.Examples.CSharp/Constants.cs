@@ -6,8 +6,14 @@ namespace GroupDocs.Merger.Examples.CSharp
     internal static class Constants
     {
         public const string LicensePath = "C:\\licenses\\GroupDocs.Merger.lic";
+
+#if NETSTANDARD
         public const string SamplesPath = "..\\..\\..\\..\\Resources\\SampleFiles";
         public const string OutputPath = "..\\..\\..\\..\\Output\\";
+#else
+        public const string SamplesPath = "..\\..\\..\\Resources\\SampleFiles";
+        public const string OutputPath = "..\\..\\..\\Output\\";
+#endif
 
         // Common
         public const string SAMPLE_NAME = "Sample";

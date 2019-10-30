@@ -8,7 +8,7 @@ namespace GroupDocs.Merger.Examples.CSharp
 {
     public class RunExamples
     {
-        static void Main()
+        public static void Run()
         {
             Console.WriteLine("Open RunExamples.cs.");
             Console.WriteLine("Please uncomment the example that you want to run in the Main() method.");
