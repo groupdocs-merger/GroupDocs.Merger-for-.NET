@@ -14,7 +14,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static void Run()
         {
             string url = "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples/Resources/SampleFiles/Pdf?raw=true";
-            
+
             using (Stream stream = GetRemoteFile(url))
             {
                 LoadOptions loadOptions = new LoadOptions(FileType.PDF);
@@ -50,5 +50,4 @@ namespace GroupDocs.Merger.Examples.CSharp
             return fileStream;
         }
     }
-}              
-     
+}
