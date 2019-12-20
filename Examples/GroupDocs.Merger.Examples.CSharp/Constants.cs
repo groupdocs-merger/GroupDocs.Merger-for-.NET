@@ -5,15 +5,10 @@ namespace GroupDocs.Merger.Examples.CSharp
 {
     internal static class Constants
     {
-        public const string LicensePath = "C:\\licenses\\GroupDocs.Merger.lic";
-
-#if NETSTANDARD
-        public const string SamplesPath = "..\\..\\..\\..\\Resources\\SampleFiles";
-        public const string OutputPath = "..\\..\\..\\..\\Output\\";
-#else
-        public const string SamplesPath = "..\\..\\..\\Resources\\SampleFiles";
-        public const string OutputPath = "..\\..\\..\\Output\\";
-#endif
+        public const string LicensePath = "./Resources/GroupDocs.Merger.lic";        
+        
+        public const string SamplesPath = @"./Resources/SampleFiles";
+        public const string OutputPath = @"./Results/Output";
 
         // Common
         public const string SAMPLE_NAME = "Sample";
@@ -21,60 +16,60 @@ namespace GroupDocs.Merger.Examples.CSharp
 
         // Text
         public static string SAMPLE_TXT =>
-            GetSampleFilePath("Text\\sample.txt");
+            GetSampleFilePath(Path.Combine("Text", "sample.txt"));
 
         // Diagrams
         public static string SAMPLE_VSDX =>
-            GetSampleFilePath("Diagram\\sample.vsdx");
+            GetSampleFilePath(Path.Combine("Diagram", "sample.vsdx"));
 
         // PDFs
         public static string SAMPLE_PDF_PROTECTED =>
-            GetSampleFilePath("Pdf\\sample_protected.pdf");
+            GetSampleFilePath(Path.Combine("Pdf", "sample_protected.pdf"));
         public static string SAMPLE_PDF =>
-            GetSampleFilePath("Pdf\\sample.pdf");
+            GetSampleFilePath(Path.Combine("Pdf", "sample.pdf"));
         public static string SAMPLE_PDF_2 =>
-            GetSampleFilePath("Pdf\\sample_simple.pdf");
+            GetSampleFilePath(Path.Combine("Pdf", "sample_simple.pdf"));
         
 
         // Presentations
         public static string SAMPLE_PPTX_PROTECTED =>
-            GetSampleFilePath("Presentation\\sample_protected.pptx");
+            GetSampleFilePath(Path.Combine("Presentation", "sample_protected.pptx"));
         public static string SAMPLE_PPTX =>
-            GetSampleFilePath("Presentation\\sample.pptx");
+            GetSampleFilePath(Path.Combine("Presentation", "sample.pptx"));
 
         // Spreadsheets
         public static string SAMPLE_XLSX_PROTECTED =>
-            GetSampleFilePath("Spreadsheet\\sample_protected.xlsx");
+            GetSampleFilePath(Path.Combine("Spreadsheet", "sample_protected.xlsx"));
         public static string SAMPLE_XLSX =>
-            GetSampleFilePath("Spreadsheet\\sample.xlsx");
+            GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsx"));
 
         // Word Processing documents
         public static string SAMPLE_DOCX_PROTECTED =>
-            GetSampleFilePath("WordProcessing\\sample_protected.docx");
+            GetSampleFilePath(Path.Combine("WordProcessing", "sample_protected.docx"));
         public static string SAMPLE_DOCX =>
-            GetSampleFilePath("WordProcessing\\sample.docx");
+            GetSampleFilePath(Path.Combine("WordProcessing", "sample.docx"));
         public static string SAMPLE_DOCX_2 =>
-           GetSampleFilePath("WordProcessing\\sample2.docx");
+           GetSampleFilePath(Path.Combine("WordProcessing", "sample2.docx"));
         public static string SAMPLE_DOCX_3 =>
-           GetSampleFilePath("WordProcessing\\sample3.docx");
+           GetSampleFilePath(Path.Combine("WordProcessing", "sample3.docx"));
         public static string SAMPLE_DOCX_4 =>
-           GetSampleFilePath("WordProcessing\\sample4.docx");
+           GetSampleFilePath(Path.Combine("WordProcessing", "sample4.docx"));
         public static string SAMPLE_DOCX_10_PAGES =>
-           GetSampleFilePath("WordProcessing\\sample-10-pages.docx");
-
+           GetSampleFilePath(Path.Combine("WordProcessing", "sample-10-pages.docx"));
+            
         // Note documents
         public static string SAMPLE_ONE_PROTECTED =>
-            GetSampleFilePath("Note\\sample_protected.one");
+            GetSampleFilePath(Path.Combine("Note", "sample_protected.one"));
         public static string SAMPLE_ONE =>
-            GetSampleFilePath("Note\\sample.one");
+            GetSampleFilePath(Path.Combine("Note", "sample.one"));
 
         // Images
         public static string SAMPLE_PNG =>
-            GetSampleFilePath("Image\\example1.png");
+            GetSampleFilePath(Path.Combine("Image", "example1.png"));
         public static string SAMPLE_BMP =>
-            GetSampleFilePath("Image\\example2.bmp");
+            GetSampleFilePath(Path.Combine("Image", "example2.bmp"));
         public static string SAMPLE_TIFF =>
-            GetSampleFilePath("Image\\example3.tiff");
+            GetSampleFilePath(Path.Combine("Image", "example3.tiff"));
 
         private static string GetSampleFilePath(string filePath) =>
             Path.Combine(SamplesPath, filePath);
@@ -86,7 +81,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             if (!Directory.Exists(outputDirectory))
                 Directory.CreateDirectory(outputDirectory);
 
-            return outputDirectory;
+            string path = Path.GetFullPath(outputDirectory);
+            return path;
         }
     }
 }

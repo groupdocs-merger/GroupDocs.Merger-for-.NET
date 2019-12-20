@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GroupDocs.Merger.Examples.CSharp
+namespace GroupDocs.Merger.Examples.CSharp.AdvancedUsage
 {
     /// <summary>
     /// This example demonstrates how to load document from local disk

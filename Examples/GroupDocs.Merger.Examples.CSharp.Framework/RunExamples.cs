@@ -6,9 +6,9 @@ using GroupDocs.Merger.Examples.CSharp.QuickStart;
 
 namespace GroupDocs.Merger.Examples.CSharp
 {
-    public class RunExamples
+    class RunExamples
     {
-        public static void Run()
+        static void Main()
         {
             Console.WriteLine("Open RunExamples.cs.");
             Console.WriteLine("Please uncomment the example that you want to run in the Main() method.");
@@ -29,76 +29,76 @@ namespace GroupDocs.Merger.Examples.CSharp
             #region Basic Usage
 
             #region Get all supported file types
-            //GetSupportedFileTypes.Run();
+            GetSupportedFileTypes.Run();
             #endregion
 
             #region Get info for the selected document
-            //GetDocumentInformation.Run();
+            GetDocumentInformation.Run();
             #endregion
 
             #region Generate preview for the selected document
-            //GenerateDocumentPagesPreview.Run();
+            GenerateDocumentPagesPreview.Run();
             #endregion
 
             #region Join files
-            //JoinMultipleDocuments.Run();
-            //JoinPagesFromVariousDocuments.Run();
+            JoinMultipleDocuments.Run();
+            JoinPagesFromVariousDocuments.Run();
             #endregion
 
             #region Split document
-            //SplitToMultiPageDocuments.Run();
-            //SplitToSinglePages.Run();
-            //SplitToSinglePagesByRange.Run();
-            //SplitToSinglePagesByRangeWithFilter.Run();
+            SplitToMultiPageDocuments.Run();
+            SplitToSinglePages.Run();
+            SplitToSinglePagesByRange.Run();
+            SplitToSinglePagesByRangeWithFilter.Run();
             #endregion
 
             #region Split text file
-            //SplitToLineRanges.Run();
-            //SplitToSeparateLines.Run();
+            SplitToLineRanges.Run();
+            SplitToSeparateLines.Run();
             #endregion
 
             #region Extract document pages 
-            //ExtractPagesByNumbers.Run();
-            //ExtractPagesByRange.Run();
+            ExtractPagesByNumbers.Run();
+            ExtractPagesByRange.Run();
             #endregion
 
             #region Change orientation of the specific document pages
-            //ChangePageOrientation.Run();
+            ChangePageOrientation.Run();
             #endregion
 
             #region Rotate document pages
-            //RotatePages.Run();
+            RotatePages.Run();
             #endregion
 
             #region Swap document pages
-            //SwapPages.Run();
+            SwapPages.Run();
             #endregion
 
             #region Remove document pages
-            //RemovePages.Run();
+            RemovePages.Run();
             #endregion
 
             #region Move page to a new position within document
-            //MovePage.Run();
+            MovePage.Run();
             #endregion
 
             #region Security - check, add, update, remove document password
 
-            //AddDocumentPassword.Run();
-            //UpdateDocumentPassword.Run();
-            //CheckDocumentPasswordProtection.Run();
-            //RemoveDocumentPassword.Run();
+            AddDocumentPassword.Run();
+            UpdateDocumentPassword.Run();
+            CheckDocumentPasswordProtection.Run();
+            RemoveDocumentPassword.Run();
 
             #endregion // Security
 
             #endregion // Basic usage
 
             #region Advanced Usage
-                       
+
             #region Loading
 
-            //LoadDocumentFromLocalDisk.Run();
-            //LoadDocumentFromStream.Run();
+            LoadDocumentFromLocalDisk.Run();
+            LoadDocumentFromStream.Run();
             //LoadDocumentFromUrl.Run();
             //LoadPasswordProtectedDocument.Run();
 
