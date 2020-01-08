@@ -1,5 +1,5 @@
 # to build image run in PS - `docker build --pull -t merger:examples .`
-# to run tests run in PS - `docker run --rm -it -v ${PWD}:/examples/out merger:examples`
+# to run tests run in PS - `docker run --rm -it -v ${PWD}:/examples/Results merger:examples`
  
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS buid_env
 
@@ -21,7 +21,7 @@ RUN dotnet restore ./GroupDocs.Merger.Examples.CSharp.Core/GroupDocs.Merger.Exam
 
 ## build
 WORKDIR /examples
-RUN dotnet publish ./GroupDocs.Merger.Examples.CSharp.Core/GroupDocs.Merger.Examples.CSharp.Core.csproj --no-restore --framework netcoreapp2.1 --configuration Debug -o ./../out
+RUN dotnet publish ./GroupDocs.Merger.Examples.CSharp.Core/GroupDocs.Merger.Examples.CSharp.Core.csproj --no-restore --framework netcoreapp2.1 --configuration Debug -o ./../publish_output
 ## end build
 
 FROM mcr.microsoft.com/dotnet/core/runtime:2.1 
@@ -45,5 +45,5 @@ RUN echo "deb http://httpredir.debian.org/debian jessie main contrib" > /etc/apt
 # end GroupDocs.Merger dependencies
 
 WORKDIR /examples
-COPY --from=buid_env /examples/out .
+COPY --from=buid_env /examples/publish_output .
 ENTRYPOINT ["dotnet", "GroupDocs.Merger.Examples.CSharp.Core.dll"]
