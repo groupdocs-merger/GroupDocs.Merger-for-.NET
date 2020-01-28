@@ -6,7 +6,7 @@
     <SharedGUID>694093b7-3f74-4a9a-9293-dd6d0477de08</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>GroupDocs.Merger.Examples.CSharp2</Import_RootNamespace>
+    <Import_RootNamespace>GroupDocs.Merger.Examples.CSharp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromLocalDisk.cs" />
