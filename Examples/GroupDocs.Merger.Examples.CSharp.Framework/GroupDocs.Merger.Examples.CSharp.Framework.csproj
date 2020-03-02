@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GroupDocs.Merger, Version=20.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\GroupDocs.Merger.20.1.0\lib\net20\GroupDocs.Merger.dll</HintPath>
+    <Reference Include="GroupDocs.Merger, Version=20.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\GroupDocs.Merger.20.2.0\lib\net20\GroupDocs.Merger.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,9 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="..\GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
