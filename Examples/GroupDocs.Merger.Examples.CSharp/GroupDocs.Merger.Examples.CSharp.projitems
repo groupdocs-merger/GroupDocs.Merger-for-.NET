@@ -25,6 +25,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ChangePageOrientation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByNumbers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToSpreadsheet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPdf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPresentation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToWordProcessing.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\MovePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RemovePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages.cs" />

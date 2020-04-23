@@ -28,6 +28,13 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             #region Basic Usage
 
+            #region Import Documents
+            ImportDocumentToPdf.Run();
+            ImportDocumentToWordProcessing.Run();
+            ImportDocumentToSpreadsheet.Run();
+            ImportDocumentToPresentation.Run();
+            #endregion
+
             #region Get all supported file types
             GetSupportedFileTypes.Run();
             #endregion
