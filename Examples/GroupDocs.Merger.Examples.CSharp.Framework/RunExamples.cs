@@ -52,6 +52,11 @@ namespace GroupDocs.Merger.Examples.CSharp
             JoinPagesFromVariousDocuments.Run();
             #endregion
 
+            #region Cross-Join files
+            CrossJoinMultipleDocuments.Run();
+            CrossJoinPagesFromVariousDocuments.Run();
+            #endregion
+
             #region Split document
             SplitToMultiPageDocuments.Run();
             SplitToSinglePages.Run();

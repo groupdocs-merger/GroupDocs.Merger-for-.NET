@@ -16,7 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GenerateDocumentPagesPreview.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetDocumentInformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetSupportedFileTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinMultipleDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinMultipleDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinPagesFromVariousDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\AddDocumentPassword.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\CheckDocumentPasswordProtection.cs" />
