@@ -13,6 +13,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems*{694093b7-3f74-4a9a-9293-dd6d0477de08}*SharedItemsImports = 13
 		GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems*{86b9423c-e5d1-4366-9897-001fcf85bad4}*SharedItemsImports = 4
+		GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems*{911b1d83-b73c-4dec-80eb-02699b4ef50a}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

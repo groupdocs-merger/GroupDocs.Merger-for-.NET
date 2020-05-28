@@ -5,6 +5,8 @@ namespace GroupDocs.Merger.Examples.CSharp
 {
     internal static class Constants
     {
+        public static bool IsLicensed = false;
+
         public const string LicensePath = "./Resources/GroupDocs.Merger.lic";        
         
         public const string SamplesPath = @"./Resources/SampleFiles";

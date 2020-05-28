@@ -15,6 +15,7 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
 
             Metered metered = new Metered();
             metered.SetMeteredKey(publicKey, privateKey);
+            Constants.IsLicensed = true;
 
             Console.WriteLine("License set successfully.");
         }

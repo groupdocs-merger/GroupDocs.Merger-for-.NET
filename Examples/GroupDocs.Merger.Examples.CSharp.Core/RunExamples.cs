@@ -3,7 +3,6 @@ using GroupDocs.Merger.Examples.CSharp.AdvancedUsage;
 using GroupDocs.Merger.Examples.CSharp.BasicUsage;
 using GroupDocs.Merger.Examples.CSharp.QuickStart;
 
-
 namespace GroupDocs.Merger.Examples.CSharp
 {
     class RunExamples
@@ -53,8 +52,11 @@ namespace GroupDocs.Merger.Examples.CSharp
             #endregion
 
             #region Cross-Join files
-            CrossJoinMultipleDocuments.Run();
-            CrossJoinPagesFromVariousDocuments.Run();
+            if (Constants.IsLicensed)
+            {
+                CrossJoinMultipleDocuments.Run();
+                CrossJoinPagesFromVariousDocuments.Run();
+            }
             #endregion
 
             #region Split document
