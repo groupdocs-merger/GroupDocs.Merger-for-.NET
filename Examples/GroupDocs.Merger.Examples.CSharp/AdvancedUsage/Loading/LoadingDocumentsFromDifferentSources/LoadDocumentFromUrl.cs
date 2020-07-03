@@ -4,7 +4,7 @@ using System.Net;
 using GroupDocs.Merger.Domain;
 using GroupDocs.Merger.Domain.Options;
 
-namespace GroupDocs.Merger.Examples.CSharp
+namespace GroupDocs.Merger.Examples.CSharp.AdvancedUsage
 {
     /// <summary>
     /// This example demonstrates how to load document from url

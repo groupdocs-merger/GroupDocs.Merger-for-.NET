@@ -16,6 +16,7 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
                 {
                     License license = new License();
                     license.SetLicense(stream);
+                    Constants.IsLicensed = true;
                 }
 
                 Console.WriteLine("License set successfully.");

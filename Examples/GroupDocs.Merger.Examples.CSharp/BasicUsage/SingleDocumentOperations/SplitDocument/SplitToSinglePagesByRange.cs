@@ -14,7 +14,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             string filePath = Constants.SAMPLE_DOCX_10_PAGES;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), "document_{0}.{1}");
 
-            PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, 3, 7);
+            SplitOptions splitOptions = new SplitOptions(filePathOut, 3, 7);
             /* This options set should produce:
              * 
            Document name   |  Page numbers

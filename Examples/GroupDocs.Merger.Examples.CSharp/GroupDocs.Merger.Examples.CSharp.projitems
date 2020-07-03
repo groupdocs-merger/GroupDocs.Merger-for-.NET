@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>694093b7-3f74-4a9a-9293-dd6d0477de08</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GroupDocs.Merger.Examples.CSharp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromLocalDisk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Loading\LoadingDocumentsFromDifferentSources\LoadDocumentFromUrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Loading\LoadPasswordProtectedDocument.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GenerateDocumentPagesPreview.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetDocumentInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetSupportedFileTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinMultipleDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinMultipleDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinPagesFromVariousDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\AddDocumentPassword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\CheckDocumentPasswordProtection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\RemoveDocumentPassword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\UpdateDocumentPassword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ChangePageOrientation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByNumbers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToSpreadsheet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPdf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPresentation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToWordProcessing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\MovePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RemovePages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToMultiPageDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRangeWithFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToLineRanges.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToSeparateLines.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SwapPages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickStart\HelloWorld.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickStart\SetLicenseFromFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickStart\SetLicenseFromStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickStart\SetMeteredLicense.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Diagram\sample.vsdx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Note\sample.one">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Note\sample_protected.one">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Pdf\sample.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Pdf\sample_protected.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Pdf\sample_simple.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Presentation\sample.pptx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Presentation\sample_protected.pptx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Spreadsheet\sample.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Spreadsheet\sample_protected.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample-10-pages.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample2.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample3.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample4.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\WordProcessing\sample_protected.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample3.tiff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Text\sample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
