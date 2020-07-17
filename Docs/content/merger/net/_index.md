@@ -8,12 +8,11 @@ keywords:
 productName: GroupDocs.Merger for .NET
 hideChildren: True
 ---
-{{< alert style="info" >}}Welcome to the GroupDocs.Merger for .NETGroupDocs.Merger for .NET allows trimming and swapping of pages. It also manages document protection. Moreover, API allows to merge two documents of same format into single.{{< /alert >}}
-
+{{< alert style="info" >}} ![](merger/net/images/home.png) **Welcome to the GroupDocs.Merger for .NET**  
+GroupDocs.Merger for .NET allows trimming and swapping of pages. It also manages document protection. Moreover, API allows to merge two documents of same format into single. 
+{{< /alert >}}
 ## GroupDocs.Merger for .NET Resources
-
 Following are the links to some useful resources you may need to accomplish your tasks.
-
 *   [GroupDocs.Merger for .NET Online Documentation]({{< ref "merger/net" >}})
 *   [GroupDocs.Merger for .NET Features]({{< ref "merger/net/getting-started/features-overview.md" >}})
 *   [GroupDocs.Merger for .NET Limitations]({{< ref "merger/net/getting-started/evaluation-limitations-and-licensing-of-groupdocs.merger.md" >}})

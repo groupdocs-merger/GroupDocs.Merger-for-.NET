@@ -17,7 +17,9 @@ Here are the steps to generate document preview with GroupDocs.Merger:
     *   image preview format - PNG / JPG / BMP;        
     *   page numbers to process;        
     *   custom size of preview images (if needed).           
-        {{< alert style="info" >}}Stream that were created by CreatePageStream delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument ReleasePageStream to clean up resources.{{< /alert >}}     
+{{< alert style="info" >}} 
+Stream that were created by [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/releasepagestream) to clean up resources.  
+{{< /alert >}}     
 *   Call [GeneratePreview](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/generatepreview) method of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class instance and pass [PreviewOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/previewoptions) to it.
     
 
@@ -106,7 +108,9 @@ private static void ReleasePageStream(int pageNumber, Stream pageStream)
 }
 ```
 
-{{< alert style="info" >}}NOTE: Stream that was created over CreatePageStream delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument ReleasePageStream to clean up resources.{{< /alert >}}
+{{< alert style="info" >}}
+NOTE: Stream that was created over [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/releasepagestream) to clean up resources.
+{{< /alert >}}
 
 
 ## More resources

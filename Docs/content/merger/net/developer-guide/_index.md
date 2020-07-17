@@ -8,4 +8,6 @@ keywords: GroupDocs.Merger Developer Guide, GroupDocs.Merger .NET Developer Guid
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
-{{< alert style="info" >}}This section describes some basic and advanced use cases of GroupDocs.Merger for .NET. Please refer to GitHub repository for more examples and samples.{{< /alert >}}
+{{< alert style="info" >}}
+This section describes some basic and advanced use cases of GroupDocs.Merger for .NET. Please refer to [GitHub repository](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET) for more examples and samples.
+{{< /alert >}}
