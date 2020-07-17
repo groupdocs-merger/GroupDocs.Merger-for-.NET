@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Merger.Live.Demos.UI", "src\GroupDocs.Merger.Live.Demos.UI\GroupDocs.Merger.Live.Demos.UI.csproj", "{B412157B-47E4-498B-AF3B-E8630F9173AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{B412157B-47E4-498B-AF3B-E8630F9173AF}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A88EA196-6BAD-4AD7-8F6B-58DEE5CC4812}
+	EndGlobalSection
+EndGlobal
