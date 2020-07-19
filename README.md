@@ -14,8 +14,6 @@ Directory | Description
 [Demos](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Demos) | Source code for live demos hosted at https://products.groupdocs.app/merger/family.
 [Docs](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Docs)  | Product documentation containing the Developer's Guide, Release Notes and more.
 [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples)  | C# examples and sample files that will help you learn how to use product features. 
-[Showcases](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Showcases)  | Open source UI-based project that can help integrate GroupDocs.Merger API in front end applications. 
-[Plugins](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Plugins)  | Contains Visual Studio plugins related to GroupDocs.Merger.
 
 ## Document Merger & Splitting Features
 
