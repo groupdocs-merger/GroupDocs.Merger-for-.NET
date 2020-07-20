@@ -19,7 +19,7 @@ Please choose one from the following list:
 
 *   Open Visual Studio and go to **File** -> **New** -> **Project**.
 *   Select appropriate project type - Console App, ASP.NET Web Application etc.
-*   Install **GroupDocs.Merger for .NET** from Nuget or official GroupDocs website following this [guide]({{< ref "merger/net/getting-started/how-to-run-examples.md" >}}).
+*   Install **GroupDocs.Merger for .NET** from Nuget or official GroupDocs website following this [guide]({{< ref "merger/net/getting-started/installation.md" >}}).
 *   Code your first application with **GroupDocs.Merger for .NET** like this    
     ```csharp
     // The path to the documents directory.
