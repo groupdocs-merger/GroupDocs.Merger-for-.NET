@@ -11,7 +11,7 @@ hideChildren: False
 ### Why To Migrate?
  
 Here are the key reasons to use the new updated API provided by GroupDocs.Merger for .NET since version 19.9:
-*   **[Merger ](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger)** class introduced as a **single entry point** to manage the document processing of any supported file format (instead of **DocumentHander** class from previous versions).     
+*   **[Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger)** class introduced as a **single entry point** to manage the document processing of any supported file format (instead of **DocumentHander** class from previous versions).     
 *   Product architecture was redesigned from scratch in order to **decreased memory usage** (from 10% to 400% approx. depending on document type).    
 *   Document processing **API simplified and improved** so it’s easy to instantiate proper options class and control over document structure manipulation processes.
     
