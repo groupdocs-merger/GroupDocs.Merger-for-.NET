@@ -22,7 +22,7 @@ Here are the steps for it:
 *   Call [ImportDocument](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/importdocument) method and pass [OleDiagramOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/olediagramoptions) object to it;
 *   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method and pass desired file path to save resultant document.
 
-The following code sample demonstrates how to add other single document as embedded document to Presentation:
+The following code sample demonstrates how to add other single document as embedded document to Diagram page:
 
 ```csharp
 string filePath = @"c:\sample.vsdx";
