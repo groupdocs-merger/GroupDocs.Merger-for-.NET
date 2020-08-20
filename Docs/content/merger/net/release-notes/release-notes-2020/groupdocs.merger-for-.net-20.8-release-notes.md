@@ -2,7 +2,7 @@
 id: groupdocs-merger-for-net-20-8-release-notes
 url: merger/net/groupdocs-merger-for-net-20-8-release-notes
 title: GroupDocs.Merger for .NET 20.8 Release Notes
-weight: 80
+weight: 50
 description: ""
 keywords: 
 productName: GroupDocs.Merger for .NET
