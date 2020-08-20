@@ -27,6 +27,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ChangePageOrientation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByNumbers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ExtractPages\ExtractPagesByRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToDiagram.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToSpreadsheet.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPdf.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToPresentation.cs" />
@@ -41,6 +42,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToLineRanges.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitTextFile\SplitToSeparateLines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SwapPages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ExampleHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)QuickStart\HelloWorld.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)QuickStart\SetLicenseFromFile.cs" />
@@ -98,6 +100,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample.emf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

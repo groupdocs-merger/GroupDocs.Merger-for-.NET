@@ -66,12 +66,14 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Note", "sample.one"));
 
         // Images
+        public static string SAMPLE_EMF =>
+            GetSampleFilePath(Path.Combine("Image", "sample.emf"));
         public static string SAMPLE_PNG =>
-            GetSampleFilePath(Path.Combine("Image", "example1.png"));
+            GetSampleFilePath(Path.Combine("Image", "sample1.png"));
         public static string SAMPLE_BMP =>
-            GetSampleFilePath(Path.Combine("Image", "example2.bmp"));
+            GetSampleFilePath(Path.Combine("Image", "sample2.bmp"));
         public static string SAMPLE_TIFF =>
-            GetSampleFilePath(Path.Combine("Image", "example3.tiff"));
+            GetSampleFilePath(Path.Combine("Image", "sample3.tiff"));
 
         private static string GetSampleFilePath(string filePath) =>
             Path.Combine(SamplesPath, filePath);
