@@ -21,8 +21,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             byte[] imageBytes = ExampleHelper.ToBytes(imageStream);
             imageStream.Close();
 
-            //TODO: Should be replaced with OleDiagramOptions from GroupDocs.Merger 20.8 !!!
-            OleSpreadsheetOptions oleDiagramOptions = new OleSpreadsheetOptions(embeddedFilePath, imageBytes, 1);
+            OleDiagramOptions oleDiagramOptions = new OleDiagramOptions(embeddedFilePath, imageBytes, 2);
+            oleDiagramOptions.X = 1;
+            oleDiagramOptions.Y = 1;
+            oleDiagramOptions.Width = 2;
+            oleDiagramOptions.Height = 1;
 
             using (Merger merger = new Merger(filePath))
             {

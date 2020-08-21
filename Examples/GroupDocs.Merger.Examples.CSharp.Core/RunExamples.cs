@@ -32,6 +32,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             ImportDocumentToWordProcessing.Run();
             ImportDocumentToSpreadsheet.Run();
             ImportDocumentToPresentation.Run();
+            ImportDocumentToDiagram.Run();
             #endregion
 
             #region Get all supported file types
