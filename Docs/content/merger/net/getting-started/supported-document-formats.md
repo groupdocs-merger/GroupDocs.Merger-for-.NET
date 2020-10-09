@@ -10,7 +10,7 @@ hideChildren: False
 ---
 The following table indicates the file formats that GroupDocs.Merger can work with.
 
-| Format | Description | Join | Split | Trim | Move page | Remove pages | Swap pages | Change page orientation | Rotate pages | Import document | Cross-format merge to PDF | Cross-format merge to DOC / DOCX |
+| Format | Description | Join | Split | Trim | Move page | Remove pages | Swap pages | Change page orientation | Rotate pages | Import document | Cross-format merge to PDF / XPS | Cross-format merge to DOC / DOCX |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [DOC](https://wiki.fileformat.com/word-processing/doc/) | Microsoft Word Document | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) |   | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) |   |
 | [DOCX](https://wiki.fileformat.com/word-processing/docx/) | Microsoft Word Open XML Document | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) |   | ![(tick)](merger/net/images/check.png) | ![(tick)](merger/net/images/check.png) |   |
