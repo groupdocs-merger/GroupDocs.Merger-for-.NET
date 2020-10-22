@@ -45,9 +45,9 @@ This code snippet will  produce:
 
 | Document name | Page numbers |
 | --- | --- |
-| document_0 | 3 |
-| document_1 | 6 |
-| document_2 | 8 |
+| document_3 | 3 |
+| document_6 | 6 |
+| document_8 | 8 |
 
 ## Split the document to several one-page documents (by start/end page numbers)
 
@@ -69,11 +69,11 @@ This code snippet will  produce:
 
 | Document name | Page numbers |
 | --- | --- |
-| document_0 | 3 |
-| document_1 | 4 |
-| document_2 | 5 |
-| document_3 | 6 |
-| document_4 | 7 |
+| document_3 | 3 |
+| document_4 | 4 |
+| document_5 | 5 |
+| document_6 | 6 |
+| document_7 | 7 |
 
 ## Split the document to several one-page documents (by start/end page numbers and even/odd filter)
 
@@ -96,9 +96,9 @@ This code snippet will  produce:
 
 | Document name | Page numbers |
 | --- | --- |
-| document_0 | 3 |
-| document_1 | 5 |
-| document_2 | 7 |
+| document_3 | 3 |
+| document_5 | 5 |
+| document_7 | 7 |
 
 ## Split the document to several multi-page documents
 
