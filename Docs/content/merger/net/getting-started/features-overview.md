@@ -14,8 +14,7 @@ GroupDocs.Merger allows you to join multiple documents and manipulate single do
 
 #### Join Documents
 
-This feature lets you merge two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.  
-Joined documents should be of the same format. 
+This feature lets you merge two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
 
 ## Single document operations
 
