@@ -11,7 +11,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = Constants.SAMPLE_VSDX;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
 
             RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
