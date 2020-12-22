@@ -2,7 +2,7 @@
 id: groupdocs-merger-for-net-20-12-release-notes
 url: merger/net/groupdocs-merger-for-net-20-12-release-notes
 title: GroupDocs.Merger for .NET 20.12 Release Notes
-weight: 40
+weight: 10
 description: ""
 keywords: 
 productName: GroupDocs.Merger for .NET
