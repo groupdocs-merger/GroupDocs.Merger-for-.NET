@@ -12,7 +12,7 @@
 Directory | Description
 --------- | -----------
 [Demos](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Demos) | Source code for live demos hosted at https://products.groupdocs.app/merger/family.
-[Docs](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Docs)  | Product documentation containing the Developer's Guide, Release Notes and more.
+[Docs](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Docs)  | Product documentation containing the Developer's Guide, Release Notes and more.
 [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples)  | C# examples and sample files that will help you learn how to use product features. 
 
 ## Document Merger & Splitting Features
