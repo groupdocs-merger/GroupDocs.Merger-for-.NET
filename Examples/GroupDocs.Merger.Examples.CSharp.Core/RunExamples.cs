@@ -24,7 +24,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             HelloWorld.Run();
 
             #endregion // Quick Start
-
+            
             #region Basic Usage
 
             #region Import Documents
@@ -50,6 +50,53 @@ namespace GroupDocs.Merger.Examples.CSharp
             #region Join files
             JoinMultipleDocuments.Run();
             JoinPagesFromVariousDocuments.Run();
+            #endregion
+
+            #region Merge files
+            MergeCsv.Run();
+            MergeDoc.Run();
+            MergeDocm.Run();
+            MergeDocx.Run();
+            MergeDot.Run();
+            MergeDotm.Run();
+            MergeDotx.Run();
+            //MergeEpub.Run();
+            MergeHtml.Run();
+            MergeMht.Run();
+            MergeMhtml.Run();
+            MergeOdp.Run();
+            MergeOds.Run();
+            MergeOdt.Run();
+            MergeOne.Run();
+            MergeOtp.Run();
+            MergeOtt.Run();
+            MergePdf.Run();
+            MergePps.Run();
+            MergePpsx.Run();
+            MergePpt.Run();
+            MergePptx.Run();
+            MergeRtf.Run();
+            MergeTex.Run();
+            MergeTsv.Run();
+            MergeTxt.Run();
+            MergeVdx.Run();
+            MergeVsdm.Run();
+            MergeVsdx.Run();
+            MergeVssm.Run();
+            MergeVssx.Run();
+            MergeVstm.Run();
+            MergeVstx.Run();
+            MergeVsx.Run();
+            MergeVtx.Run();
+            MergeXlam.Run();
+            MergeXls.Run();
+            MergeXlsb.Run();
+            MergeXlsm.Run();
+            MergeXlsx.Run();
+            MergeXlt.Run();
+            MergeXltm.Run();
+            MergeXltx.Run();
+            MergeXps.Run();
             #endregion
 
             #region Cross-Join files

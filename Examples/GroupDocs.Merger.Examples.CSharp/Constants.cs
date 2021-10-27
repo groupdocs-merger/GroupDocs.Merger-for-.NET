@@ -88,5 +88,170 @@ namespace GroupDocs.Merger.Examples.CSharp
             string path = Path.GetFullPath(outputDirectory);
             return path;
         }
+
+
+        // CSV
+        public static string SAMPLE_CSV => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.csv"));
+        public static string SAMPLE_CSV_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.csv"));
+
+        // DOC
+        public static string SAMPLE_DOC => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.doc"));
+        public static string SAMPLE_DOC_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.doc"));
+
+        // DOCM
+        public static string SAMPLE_DOCM => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.docm"));
+        public static string SAMPLE_DOCM_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.docm"));
+
+        // DOT
+        public static string SAMPLE_DOT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dot"));
+        public static string SAMPLE_DOT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dot"));
+
+        // DOTM
+        public static string SAMPLE_DOTM => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotm"));
+        public static string SAMPLE_DOTM_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotm"));
+
+        // DOTX
+        public static string SAMPLE_DOTX => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotx"));
+        public static string SAMPLE_DOTX_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotx"));
+
+        // EPUB
+        public static string SAMPLE_EPUB => GetSampleFilePath(Path.Combine("Ebook", "sample.epub"));
+        public static string SAMPLE_EPUB_2 => GetSampleFilePath(Path.Combine("Ebook", "sample.epub"));
+
+        // HTML
+        public static string SAMPLE_HTML => GetSampleFilePath(Path.Combine("Web", "sample.html"));
+        public static string SAMPLE_HTML_2 => GetSampleFilePath(Path.Combine("Web", "sample.html"));
+
+        // MHT
+        public static string SAMPLE_MHT => GetSampleFilePath(Path.Combine("Web", "sample.mht"));
+        public static string SAMPLE_MHT_2 => GetSampleFilePath(Path.Combine("Web", "sample.mht"));
+
+        // MHTML
+        public static string SAMPLE_MHTML => GetSampleFilePath(Path.Combine("Web", "sample.mhtml"));
+        public static string SAMPLE_MHTML_2 => GetSampleFilePath(Path.Combine("Web", "sample.mhtml"));
+
+        // ODP
+        public static string SAMPLE_ODP => GetSampleFilePath(Path.Combine("Presentation", "sample.odp"));
+        public static string SAMPLE_ODP_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.odp"));
+
+        // ODS
+        public static string SAMPLE_ODS => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.ods"));
+        public static string SAMPLE_ODS_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.ods"));
+
+        // ODT
+        public static string SAMPLE_ODT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.odt"));
+        public static string SAMPLE_ODT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.odt"));
+
+        // ONE
+        public static string SAMPLE_ONE_2 => GetSampleFilePath(Path.Combine("Note", "sample.one"));
+
+        // OTP
+        public static string SAMPLE_OTP => GetSampleFilePath(Path.Combine("Presentation", "sample.otp"));
+        public static string SAMPLE_OTP_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.otp"));
+
+        // OTT
+        public static string SAMPLE_OTT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.ott"));
+        public static string SAMPLE_OTT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.ott"));
+        
+        // PPS
+        public static string SAMPLE_PPS => GetSampleFilePath(Path.Combine("Presentation", "sample.pps"));
+        public static string SAMPLE_PPS_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.pps"));
+
+        // PPSX
+        public static string SAMPLE_PPSX => GetSampleFilePath(Path.Combine("Presentation", "sample.ppsx"));
+        public static string SAMPLE_PPSX_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.ppsx"));
+
+        // PPT
+        public static string SAMPLE_PPT => GetSampleFilePath(Path.Combine("Presentation", "sample.ppt"));
+        public static string SAMPLE_PPT_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.ppt"));
+
+        // PPTX
+        public static string SAMPLE_PPTX_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.pptx"));
+
+        // RTF
+        public static string SAMPLE_RTF => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.rtf"));
+        public static string SAMPLE_RTF_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.rtf"));
+
+        // TEX
+        public static string SAMPLE_TEX => GetSampleFilePath(Path.Combine("PageDescriptionLanguage", "sample.tex"));
+        public static string SAMPLE_TEX_2 => GetSampleFilePath(Path.Combine("PageDescriptionLanguage", "sample.tex"));
+
+        // TSV
+        public static string SAMPLE_TSV => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.tsv"));
+        public static string SAMPLE_TSV_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.tsv"));
+
+        // TXT
+        public static string SAMPLE_TXT_2 => GetSampleFilePath(Path.Combine("Text", "sample.txt"));
+
+        // VDX
+        public static string SAMPLE_VDX => GetSampleFilePath(Path.Combine("Diagram", "sample.vdx"));
+        public static string SAMPLE_VDX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vdx"));
+
+        // VSDM
+        public static string SAMPLE_VSDM => GetSampleFilePath(Path.Combine("Diagram", "sample.vsdm"));
+        public static string SAMPLE_VSDM_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vsdm"));
+
+        // VSDX
+        public static string SAMPLE_VSDX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vsdx"));
+
+        // VSSM
+        public static string SAMPLE_VSSM => GetSampleFilePath(Path.Combine("Diagram", "sample.vssm"));
+        public static string SAMPLE_VSSM_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vssm"));
+
+        // VSSX
+        public static string SAMPLE_VSSX => GetSampleFilePath(Path.Combine("Diagram", "sample.vssx"));
+        public static string SAMPLE_VSSX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vssx"));
+
+        // VSTM
+        public static string SAMPLE_VSTM => GetSampleFilePath(Path.Combine("Diagram", "sample.vstm"));
+        public static string SAMPLE_VSTM_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vstm"));
+
+        // VSTX
+        public static string SAMPLE_VSTX => GetSampleFilePath(Path.Combine("Diagram", "sample.vstx"));
+        public static string SAMPLE_VSTX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vstx"));
+
+        // VSX
+        public static string SAMPLE_VSX => GetSampleFilePath(Path.Combine("Diagram", "sample.vsx"));
+        public static string SAMPLE_VSX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vsx"));
+
+        // VTX
+        public static string SAMPLE_VTX => GetSampleFilePath(Path.Combine("Diagram", "sample.vtx"));
+        public static string SAMPLE_VTX_2 => GetSampleFilePath(Path.Combine("Diagram", "sample.vtx"));
+
+        // XLAM
+        public static string SAMPLE_XLAM => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlam"));
+        public static string SAMPLE_XLAM_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlam"));
+
+        // XLS
+        public static string SAMPLE_XLS => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xls"));
+        public static string SAMPLE_XLS_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xls"));
+
+        // XLSB
+        public static string SAMPLE_XLSB => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsb"));
+        public static string SAMPLE_XLSB_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsb"));
+
+        // XLSM
+        public static string SAMPLE_XLSM => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsm"));
+        public static string SAMPLE_XLSM_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsm"));
+
+        // XLSX
+        public static string SAMPLE_XLSX_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlsx"));
+
+        // XLT
+        public static string SAMPLE_XLT => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlt"));
+        public static string SAMPLE_XLT_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xlt"));
+
+        // XLTM
+        public static string SAMPLE_XLTM => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xltm"));
+        public static string SAMPLE_XLTM_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xltm"));
+
+        // XLTX
+        public static string SAMPLE_XLTX => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xltx"));
+        public static string SAMPLE_XLTX_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.xltx"));
+
+        // XPS
+        public static string SAMPLE_XPS => GetSampleFilePath(Path.Combine("PageDescriptionLanguage", "sample.xps"));
+        public static string SAMPLE_XPS_2 => GetSampleFilePath(Path.Combine("PageDescriptionLanguage", "sample.xps"));
+
     }
 }
