@@ -14,7 +14,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             string filePath = Constants.SAMPLE_PDF_2;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
 
-            RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate180, new int[] { 2, 3 });
+            RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate180, new int[] { 1 });
 
             using (Merger merger = new Merger(filePath))
             {

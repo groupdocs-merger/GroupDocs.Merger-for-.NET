@@ -28,6 +28,3 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
         }
     }
 }
-
-            
-            
