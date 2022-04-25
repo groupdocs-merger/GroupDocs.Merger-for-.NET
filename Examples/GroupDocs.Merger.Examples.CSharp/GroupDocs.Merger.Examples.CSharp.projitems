@@ -37,6 +37,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeOne.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeOtp.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeOtt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergePng.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergePdf.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergePps.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergePpsx.cs" />

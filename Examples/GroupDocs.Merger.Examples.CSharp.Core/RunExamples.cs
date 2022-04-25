@@ -75,6 +75,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergePpsx.Run();
             MergePpt.Run();
             MergePptx.Run();
+            MergePng.Run();
             MergeRtf.Run();
             MergeTex.Run();
             MergeTsv.Run();
