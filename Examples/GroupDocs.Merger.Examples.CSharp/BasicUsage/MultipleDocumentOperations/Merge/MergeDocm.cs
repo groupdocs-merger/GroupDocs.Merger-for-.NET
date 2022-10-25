@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another DOCM file to merge
                 merger.Join(Constants.SAMPLE_DOCM_2);
-                // Merge DOCM files ans save result
+                // Merge DOCM files and save result
                 merger.Save(outputFile);
             }
 

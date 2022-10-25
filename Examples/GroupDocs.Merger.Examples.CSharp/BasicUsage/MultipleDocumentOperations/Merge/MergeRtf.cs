@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another RTF file to merge
                 merger.Join(Constants.SAMPLE_RTF_2);
-                // Merge RTF files ans save result
+                // Merge RTF files and save result
                 merger.Save(outputFile);
             }
 

@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another PDF file to merge
                 merger.Join(Constants.SAMPLE_PDF_2);
-                // Merge PDF files ans save result
+                // Merge PDF files and save result
                 merger.Save(outputFile);
             }
 

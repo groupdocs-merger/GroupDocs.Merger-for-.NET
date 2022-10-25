@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another DOT file to merge
                 merger.Join(Constants.SAMPLE_DOT_2);
-                // Merge DOT files ans save result
+                // Merge DOT files and save result
                 merger.Save(outputFile);
             }
 

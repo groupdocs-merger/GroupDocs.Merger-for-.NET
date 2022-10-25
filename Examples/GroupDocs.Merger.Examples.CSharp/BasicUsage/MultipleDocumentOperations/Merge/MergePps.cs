@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another PPS file to merge
                 merger.Join(Constants.SAMPLE_PPS_2);
-                // Merge PPS files ans save result
+                // Merge PPS files and save result
                 merger.Save(outputFile);
             }
 

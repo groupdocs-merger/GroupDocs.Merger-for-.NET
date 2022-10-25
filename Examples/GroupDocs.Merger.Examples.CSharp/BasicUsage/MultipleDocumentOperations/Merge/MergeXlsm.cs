@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another XLSM file to merge
                 merger.Join(Constants.SAMPLE_XLSM_2);
-                // Merge XLSM files ans save result
+                // Merge XLSM files and save result
                 merger.Save(outputFile);
             }
 

@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another MHT file to merge
                 merger.Join(Constants.SAMPLE_MHT_2);
-                // Merge MHT files ans save result
+                // Merge MHT files and save result
                 merger.Save(outputFile);
             }
 

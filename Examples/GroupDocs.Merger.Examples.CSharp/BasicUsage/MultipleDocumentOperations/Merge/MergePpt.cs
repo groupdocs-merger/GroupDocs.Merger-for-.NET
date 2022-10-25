@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another PPT file to merge
                 merger.Join(Constants.SAMPLE_PPT_2);
-                // Merge PPT files ans save result
+                // Merge PPT files and save result
                 merger.Save(outputFile);
             }
 

@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another TXT file to merge
                 merger.Join(Constants.SAMPLE_TXT_2);
-                // Merge TXT files ans save result
+                // Merge TXT files and save result
                 merger.Save(outputFile);
             }
 

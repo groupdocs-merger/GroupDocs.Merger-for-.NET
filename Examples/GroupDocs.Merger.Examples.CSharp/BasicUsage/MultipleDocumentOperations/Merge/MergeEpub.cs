@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another EPUB file to merge
                 merger.Join(Constants.SAMPLE_EPUB_2);
-                // Merge EPUB files ans save result
+                // Merge EPUB files and save result
                 merger.Save(outputFile);
             }
 

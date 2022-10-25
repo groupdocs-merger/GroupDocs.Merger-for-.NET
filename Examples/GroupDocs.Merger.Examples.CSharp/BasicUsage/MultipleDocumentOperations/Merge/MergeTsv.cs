@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another TSV file to merge
                 merger.Join(Constants.SAMPLE_TSV_2);
-                // Merge TSV files ans save result
+                // Merge TSV files and save result
                 merger.Save(outputFile);
             }
 

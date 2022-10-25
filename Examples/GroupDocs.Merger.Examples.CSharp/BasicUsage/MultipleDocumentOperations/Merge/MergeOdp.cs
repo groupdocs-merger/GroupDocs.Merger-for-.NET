@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another ODP file to merge
                 merger.Join(Constants.SAMPLE_ODP_2);
-                // Merge ODP files ans save result
+                // Merge ODP files and save result
                 merger.Save(outputFile);
             }
 

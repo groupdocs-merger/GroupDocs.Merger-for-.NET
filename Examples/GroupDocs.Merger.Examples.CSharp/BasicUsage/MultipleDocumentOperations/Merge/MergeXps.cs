@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another XPS file to merge
                 merger.Join(Constants.SAMPLE_XPS_2);
-                // Merge XPS files ans save result
+                // Merge XPS files and save result
                 merger.Save(outputFile);
             }
 

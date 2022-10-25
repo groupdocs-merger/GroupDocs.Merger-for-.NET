@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another PPTX file to merge
                 merger.Join(Constants.SAMPLE_PPTX_2);
-                // Merge PPTX files ans save result
+                // Merge PPTX files and save result
                 merger.Save(outputFile);
             }
 

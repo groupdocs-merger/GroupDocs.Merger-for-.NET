@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another DOTX file to merge
                 merger.Join(Constants.SAMPLE_DOTX_2);
-                // Merge DOTX files ans save result
+                // Merge DOTX files and save result
                 merger.Save(outputFile);
             }
 

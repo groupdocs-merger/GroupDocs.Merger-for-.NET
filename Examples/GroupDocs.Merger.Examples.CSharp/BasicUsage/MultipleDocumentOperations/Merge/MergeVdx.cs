@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another VDX file to merge
                 merger.Join(Constants.SAMPLE_VDX_2);
-                // Merge VDX files ans save result
+                // Merge VDX files and save result
                 merger.Save(outputFile);
             }
 

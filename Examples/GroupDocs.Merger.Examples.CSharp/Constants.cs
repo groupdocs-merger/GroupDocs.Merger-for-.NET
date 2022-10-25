@@ -7,7 +7,7 @@ namespace GroupDocs.Merger.Examples.CSharp
     {
         public static bool IsLicensed = false;
 
-        public const string LicensePath = "./Resources/GroupDocs.Merger.lic";        
+        public const string LicensePath = "./Resources/GroupDocs.Merger.NET.lic";
         
         public const string SamplesPath = @"./Resources/SampleFiles";
         public const string OutputPath = @"./Results/Output";
@@ -74,6 +74,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Image", "sample2.bmp"));
         public static string SAMPLE_TIFF =>
             GetSampleFilePath(Path.Combine("Image", "sample3.tiff"));
+        public static string SAMPLE_TIF =>
+            GetSampleFilePath(Path.Combine("Image", "sample4.tif"));
 
         private static string GetSampleFilePath(string filePath) =>
             Path.Combine(SamplesPath, filePath);

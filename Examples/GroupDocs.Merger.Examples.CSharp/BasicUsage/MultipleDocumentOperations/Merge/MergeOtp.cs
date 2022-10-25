@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another OTP file to merge
                 merger.Join(Constants.SAMPLE_OTP_2);
-                // Merge OTP files ans save result
+                // Merge OTP files and save result
                 merger.Save(outputFile);
             }
 

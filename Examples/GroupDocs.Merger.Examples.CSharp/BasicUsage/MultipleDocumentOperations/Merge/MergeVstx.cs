@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another VSTX file to merge
                 merger.Join(Constants.SAMPLE_VSTX_2);
-                // Merge VSTX files ans save result
+                // Merge VSTX files and save result
                 merger.Save(outputFile);
             }
 

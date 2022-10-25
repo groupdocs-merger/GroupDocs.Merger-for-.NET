@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another HTML file to merge
                 merger.Join(Constants.SAMPLE_HTML_2);
-                // Merge HTML files ans save result
+                // Merge HTML files and save result
                 merger.Save(outputFile);
             }
 

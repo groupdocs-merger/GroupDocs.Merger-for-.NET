@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another OTT file to merge
                 merger.Join(Constants.SAMPLE_OTT_2);
-                // Merge OTT files ans save result
+                // Merge OTT files and save result
                 merger.Save(outputFile);
             }
 

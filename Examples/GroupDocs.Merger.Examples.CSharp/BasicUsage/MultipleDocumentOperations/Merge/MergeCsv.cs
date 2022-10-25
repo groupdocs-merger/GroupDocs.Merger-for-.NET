@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another CSV file to merge
                 merger.Join(Constants.SAMPLE_CSV_2);
-                // Merge CSV files ans save result
+                // Merge CSV files and save result
                 merger.Save(outputFile);
             }
 

@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another VSSM file to merge
                 merger.Join(Constants.SAMPLE_VSSM_2);
-                // Merge VSSM files ans save result
+                // Merge VSSM files and save result
                 merger.Save(outputFile);
             }
 

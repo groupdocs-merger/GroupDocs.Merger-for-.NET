@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             {
                 // Add another XLAM file to merge
                 merger.Join(Constants.SAMPLE_XLAM_2);
-                // Merge XLAM files ans save result
+                // Merge XLAM files and save result
                 merger.Save(outputFile);
             }
 
