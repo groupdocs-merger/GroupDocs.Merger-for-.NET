@@ -1,25 +1,22 @@
-﻿using GroupDocs.Merger.Domain.Options;
-using System;
+﻿using System;
 using System.IO;
 
 namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
 {
     /// <summary>
-    /// This example demonstrates how to join specific pages from several source documents with different file types.
+    /// This example demonstrates how to join documents with different file types.
     /// </summary>
-    public class CrossJoinPagesFromVariousDocuments
+    public class CrossJoinMultipleImages
     {
         public static void Run()
         {
-            string filePath = Constants.SAMPLE_PDF;
+            string filePath = Constants.SAMPLE_PNG;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
-
-            JoinOptions joinOptions = new JoinOptions(1, 2);
 
             using (Merger merger = new Merger(filePath))
             {
-                merger.Join(Constants.SAMPLE_DOCX, joinOptions);
-                merger.Join(Constants.SAMPLE_TIFF, joinOptions);
+                merger.Join(Constants.SAMPLE_BMP);
+                merger.Join(Constants.SAMPLE_JPG);
                 merger.Save(filePathOut);
             }
 

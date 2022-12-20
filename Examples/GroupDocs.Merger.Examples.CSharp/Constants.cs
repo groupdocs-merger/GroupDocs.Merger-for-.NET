@@ -76,6 +76,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Image", "sample3.tiff"));
         public static string SAMPLE_TIF =>
             GetSampleFilePath(Path.Combine("Image", "sample4.tif"));
+        public static string SAMPLE_JPG =>
+            GetSampleFilePath(Path.Combine("Image", "sample5.jpg"));
 
         private static string GetSampleFilePath(string filePath) =>
             Path.Combine(SamplesPath, filePath);
