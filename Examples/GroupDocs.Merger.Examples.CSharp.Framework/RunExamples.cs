@@ -105,6 +105,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             if (Constants.IsLicensed)
             {
                 CrossJoinMultipleDocuments.Run();
+                CrossJoinMultipleImages.Run();
                 CrossJoinPagesFromVariousDocuments.Run();
             }
             #endregion
