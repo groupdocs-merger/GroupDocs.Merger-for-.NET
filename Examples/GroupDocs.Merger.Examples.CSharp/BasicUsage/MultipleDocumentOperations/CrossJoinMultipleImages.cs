@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 
+using GroupDocs.Merger.Domain.Options;
+
 namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
 {
     /// <summary>
@@ -13,10 +15,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             string filePath = Constants.SAMPLE_PNG;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
 
+            IImageJoinOptions imageJoinOptions = new ImageJoinOptions(ImageJoinMode.Vertical);
+
             using (Merger merger = new Merger(filePath))
             {
-                merger.Join(Constants.SAMPLE_BMP);
-                merger.Join(Constants.SAMPLE_JPG);
+                merger.Join(Constants.SAMPLE_BMP, imageJoinOptions);
+                merger.Join(Constants.SAMPLE_JPG, imageJoinOptions);
                 merger.Save(filePathOut);
             }
 
