@@ -6,7 +6,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     /// <summary>
     /// This example demonstrates how to merge multiple DOT files into single file.
     /// For more details about merging Microsoft Word Document Template (.dot) files please check this documentation article 
-    /// https://docs.groupdocs.com/merger/net/merge/dot
+    /// https://docs.groupdocs.com/merger/net/merge/word/
     /// </summary>
     internal static class MergeDot
     {

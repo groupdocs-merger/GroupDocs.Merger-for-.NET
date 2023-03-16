@@ -6,7 +6,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     /// <summary>
     /// This example demonstrates how to merge multiple DOTX files into single file.
     /// For more details about merging Word Open XML Document Template (.dotx) files please check this documentation article 
-    /// https://docs.groupdocs.com/merger/net/merge/dotx
+    /// https://docs.groupdocs.com/merger/net/merge/word/
     /// </summary>
     internal static class MergeDotx
     {

@@ -21,6 +21,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinMultipleDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinPagesFromVariousDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeTar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeZip.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeTif.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeTiff.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeCsv.cs" />
@@ -99,6 +101,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)QuickStart\SetMeteredLicense.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Archive\sample.tar">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Archive\sample.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Diagram\sample.vdx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

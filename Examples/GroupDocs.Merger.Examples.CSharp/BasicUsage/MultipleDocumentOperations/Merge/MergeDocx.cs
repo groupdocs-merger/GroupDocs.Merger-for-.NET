@@ -6,7 +6,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     /// <summary>
     /// This example demonstrates how to merge multiple DOCX files into single file.
     /// For more details about merging Microsoft Word Open XML Document (.docx) files please check this documentation article 
-    /// https://docs.groupdocs.com/merger/net/merge/docx
+    /// https://docs.groupdocs.com/merger/net/merge/word/
     /// </summary>
     internal static class MergeDocx
     {
