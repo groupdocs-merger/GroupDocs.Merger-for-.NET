@@ -68,6 +68,8 @@ namespace GroupDocs.Merger.Examples.CSharp
         // Images
         public static string SAMPLE_EMF =>
             GetSampleFilePath(Path.Combine("Image", "sample.emf"));
+        public static string SAMPLE_GIF =>
+            GetSampleFilePath(Path.Combine("Image", "sample.gif"));
         public static string SAMPLE_PNG =>
             GetSampleFilePath(Path.Combine("Image", "sample1.png"));
         public static string SAMPLE_BMP =>
@@ -260,6 +262,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         // ARCHIVE
         public static string SAMPLE_ZIP => GetSampleFilePath(Path.Combine("Archive", "sample.zip"));
         public static string SAMPLE_TAR => GetSampleFilePath(Path.Combine("Archive", "sample.tar"));
+        public static string SAMPLE_RAR => GetSampleFilePath(Path.Combine("Archive", "sample.rar"));
 
     }
 }

@@ -77,6 +77,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergePptx.Run();
             MergePng.Run();
             MergeBmp.Run();
+            MergeGif.Run();
             MergeTif.Run();
             MergeTiff.Run();
             MergeRtf.Run();
@@ -110,6 +111,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             {
                 CrossJoinMultipleDocuments.Run();
                 CrossJoinMultipleImages.Run();
+                CrossJoinMultipleArchives.Run();
                 CrossJoinPagesFromVariousDocuments.Run();
             }
             #endregion
