@@ -80,6 +80,10 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Image", "sample4.tif"));
         public static string SAMPLE_JPG =>
             GetSampleFilePath(Path.Combine("Image", "sample5.jpg"));
+        public static string SAMPLE_SVG =>
+            GetSampleFilePath(Path.Combine("Image", "sample.svg"));
+        public static string SAMPLE_SVGZ =>
+            GetSampleFilePath(Path.Combine("Image", "sample.svgz"));
 
         private static string GetSampleFilePath(string filePath) =>
             Path.Combine(SamplesPath, filePath);
@@ -263,6 +267,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_ZIP => GetSampleFilePath(Path.Combine("Archive", "sample.zip"));
         public static string SAMPLE_TAR => GetSampleFilePath(Path.Combine("Archive", "sample.tar"));
         public static string SAMPLE_RAR => GetSampleFilePath(Path.Combine("Archive", "sample.rar"));
+        public static string SAMPLE_7Z => GetSampleFilePath(Path.Combine("Archive", "sample.7z"));
 
     }
 }

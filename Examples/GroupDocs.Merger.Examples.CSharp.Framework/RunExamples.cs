@@ -78,6 +78,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeGif.Run();
             MergeTif.Run();
             MergeTiff.Run();
+            MergeSvg.Run();
+            MergeSvgz.Run();
             MergeRtf.Run();
             //MergeTex.Run();
             MergeTsv.Run();
@@ -102,6 +104,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeXps.Run();
             MergeZip.Run();
             MergeTar.Run();
+            Merge7z.Run();
             #endregion
 
             #region Cross-Join files
