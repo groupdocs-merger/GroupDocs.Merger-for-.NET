@@ -16,6 +16,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GenerateDocumentPagesPreview.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetDocumentInformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetSupportedFileTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinImagesToPdf.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinMultipleArchives.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinMultipleImages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinMultipleDocuments.cs" />

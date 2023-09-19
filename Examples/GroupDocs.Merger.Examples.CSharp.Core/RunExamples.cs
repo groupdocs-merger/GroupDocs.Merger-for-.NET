@@ -116,6 +116,7 @@ namespace GroupDocs.Merger.Examples.CSharp
                 CrossJoinMultipleImages.Run();
                 CrossJoinMultipleArchives.Run();
                 CrossJoinPagesFromVariousDocuments.Run();
+                CrossJoinImagesToPdf.Run();
             }
             #endregion
 
