@@ -14,7 +14,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
             string filePath = Constants.SAMPLE_PDF;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
 
-            JoinOptions joinOptions = new JoinOptions(1, 2);
+            PageJoinOptions joinOptions = new PageJoinOptions(1, 2);
 
             using (Merger merger = new Merger(filePath))
             {

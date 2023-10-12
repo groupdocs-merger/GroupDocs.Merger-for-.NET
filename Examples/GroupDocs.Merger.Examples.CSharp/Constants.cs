@@ -269,5 +269,9 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_RAR => GetSampleFilePath(Path.Combine("Archive", "sample.rar"));
         public static string SAMPLE_7Z => GetSampleFilePath(Path.Combine("Archive", "sample.7z"));
 
+        // AUDIO
+        public static string SAMPLE_WAV => GetSampleFilePath(Path.Combine("Audio", "sample.wav"));
+        public static string SAMPLE_MP3 => GetSampleFilePath(Path.Combine("Audio", "sample.mp3"));
+
     }
 }

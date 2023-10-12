@@ -105,6 +105,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeZip.Run();
             MergeTar.Run();
             Merge7z.Run();
+            MergeWav.Run();
+            MergeMp3.Run();
             #endregion
 
             #region Cross-Join files

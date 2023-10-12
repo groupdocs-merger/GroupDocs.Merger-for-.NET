@@ -23,6 +23,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinMultipleDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinPagesFromVariousDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeMp3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeWav.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeSvgz.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeSvg.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeGif.cs" />
@@ -295,6 +297,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Audio\sample.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Audio\sample.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\SampleFiles\Image\sample.emf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
