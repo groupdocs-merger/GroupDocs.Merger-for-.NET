@@ -50,6 +50,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             #region Join files
             JoinMultipleDocuments.Run();
             JoinPagesFromVariousDocuments.Run();
+            JoinPagesUsingPageBuilder.Run();
             #endregion
 
             #region Merge files

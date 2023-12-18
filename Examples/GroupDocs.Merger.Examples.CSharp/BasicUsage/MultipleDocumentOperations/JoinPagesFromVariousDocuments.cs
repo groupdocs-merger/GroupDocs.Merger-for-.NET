@@ -22,7 +22,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
                 merger.Save(filePathOut);
             }
 
-            Console.WriteLine("Source documents was merged successfully.");
+            Console.WriteLine("Source documents were merged successfully.");
             Console.WriteLine($"Check output {filePathOut}.");
         }
     }

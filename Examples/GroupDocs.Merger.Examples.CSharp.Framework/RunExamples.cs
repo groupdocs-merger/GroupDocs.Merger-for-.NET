@@ -32,7 +32,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             //ImportDocumentToSpreadsheet.Run();
             //ImportDocumentToPresentation.Run();
             //ImportDocumentToDiagram.Run();
-           
+
             #region Get all supported file types
             // GetSupportedFileTypes.Run();
             #endregion
@@ -46,8 +46,9 @@ namespace GroupDocs.Merger.Examples.CSharp
             #endregion
 
             #region Join files
-            // JoinMultipleDocuments.Run();
-            // JoinPagesFromVariousDocuments.Run();
+            JoinMultipleDocuments.Run();
+            JoinPagesFromVariousDocuments.Run();
+            JoinPagesUsingPageBuilder.Run();
             #endregion
 
             #region Merge files
