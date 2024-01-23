@@ -115,6 +115,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             #region Cross-Join files
             if (Constants.IsLicensed)
             {
+                CrossJoinFamilyDocuments.Run();
                 CrossJoinMultipleDocuments.Run();
                 CrossJoinMultipleImages.Run();
                 CrossJoinMultipleArchives.Run();
