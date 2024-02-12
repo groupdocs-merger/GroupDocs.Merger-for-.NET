@@ -61,7 +61,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeDot.Run();
             MergeDotm.Run();
             MergeDotx.Run();
-            //MergeEpub.Run();
+            MergeEpub.Run();
             MergeHtml.Run();
             MergeMht.Run();
             MergeMhtml.Run();
