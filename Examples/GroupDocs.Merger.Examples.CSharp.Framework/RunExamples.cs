@@ -108,6 +108,9 @@ namespace GroupDocs.Merger.Examples.CSharp
             Merge7z.Run();
             MergeWav.Run();
             MergeMp3.Run();
+            // Word
+            //MergeWordDocumentsWithoutStartingFromNewPage.Run();
+            //MergeWordDocumentsWithPredefinedComplianceMode.Run();
             #endregion
 
             #region Cross-Join files
