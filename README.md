@@ -67,7 +67,7 @@ string filePath = @"c:\sample.docx";
 string filePath2 = @"c:\sample2.docx";
 string filePathOut = @"c:\output\result.docx";
 
-JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
 
 using (Merger merger = new Merger(filePath, loadOptions))
 {

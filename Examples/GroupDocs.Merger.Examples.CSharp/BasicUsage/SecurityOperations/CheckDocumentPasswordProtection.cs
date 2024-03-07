@@ -9,6 +9,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: CheckDocumentPasswordProtection");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_XLSX_PROTECTED;                                   
             bool isPasswordSet = false;
 

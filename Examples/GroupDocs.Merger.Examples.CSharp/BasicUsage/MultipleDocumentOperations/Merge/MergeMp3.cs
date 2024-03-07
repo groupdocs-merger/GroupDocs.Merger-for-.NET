@@ -11,7 +11,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergeMp3
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergeMp3");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.mp3");
             

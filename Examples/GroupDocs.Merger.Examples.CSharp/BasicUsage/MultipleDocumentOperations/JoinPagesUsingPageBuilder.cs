@@ -12,6 +12,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: JoinPagesUsingPageBuilder");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_PDF;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));
 

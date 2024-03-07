@@ -12,7 +12,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergeWordDocumentsWithoutStartingFromNewPage
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergeWordDocumentsWithoutStartingFromNewPage");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.doc");
             

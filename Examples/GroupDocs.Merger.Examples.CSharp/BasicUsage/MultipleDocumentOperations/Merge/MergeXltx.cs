@@ -11,7 +11,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergeXltx
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergeXltx");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.xltx");
             

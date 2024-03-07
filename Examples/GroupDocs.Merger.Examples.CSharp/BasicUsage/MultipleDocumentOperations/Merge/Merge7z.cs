@@ -11,7 +11,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class Merge7z
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: Merge7z");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.7z");
             

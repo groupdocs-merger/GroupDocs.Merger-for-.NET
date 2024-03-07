@@ -10,6 +10,11 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Quick Start: SetLicenseFromStream");
+            Console.WriteLine();
+
             if (File.Exists(Constants.LicensePath))
             {
                 using (FileStream stream = File.OpenRead(Constants.LicensePath))

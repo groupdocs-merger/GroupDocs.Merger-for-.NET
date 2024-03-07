@@ -12,6 +12,11 @@ namespace GroupDocs.Merger.Examples.CSharp.AdvancedUsage
     {       
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Advanced Usage: LoadPasswordProtectedDocument");
+            Console.WriteLine();
+
             // The path to the documents directory.
             string filePath = Constants.SAMPLE_DOCX_PROTECTED;
 

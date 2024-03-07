@@ -11,6 +11,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: ImportDocumentToWordProcessing");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_DOCX;
             string embeddedFilePath = Constants.SAMPLE_PDF;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(filePath));

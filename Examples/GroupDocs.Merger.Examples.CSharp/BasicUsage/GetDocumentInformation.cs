@@ -10,6 +10,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: GetDocumentInformation");
+            Console.WriteLine();
+
             using (Merger merger = new Merger(Constants.SAMPLE_VSDX))
             {
                 IDocumentInfo info = merger.GetDocumentInfo();

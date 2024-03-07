@@ -11,7 +11,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergePptx
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergePptx");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.pptx");
             

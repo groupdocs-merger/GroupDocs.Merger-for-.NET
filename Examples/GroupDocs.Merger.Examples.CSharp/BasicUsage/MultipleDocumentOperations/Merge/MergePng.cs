@@ -12,7 +12,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergePng
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergePng");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.png");
             

@@ -11,7 +11,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         {
             Console.WriteLine("Open RunExamples.cs.");
             Console.WriteLine("Please uncomment the example that you want to run in the Main() method.");
-            Console.WriteLine("=====================================================");
+            Console.WriteLine("=======================================================================");
 
             //NOTE: Please uncomment the example that you want to run.
             
@@ -187,7 +187,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             #endregion // Advanced Usage            
 
             Console.WriteLine();
-            Console.WriteLine("=====================================================");
+            Console.WriteLine("=======================================================================");
             Console.WriteLine("All done.");
             Console.ReadKey();
         }

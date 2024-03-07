@@ -11,6 +11,11 @@ namespace GroupDocs.Merger.Examples.CSharp
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: SplitToMultiPageDocuments");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_DOCX_10_PAGES;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), "document_{0}.{1}");
 

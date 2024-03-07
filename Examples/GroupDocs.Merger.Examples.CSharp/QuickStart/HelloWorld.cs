@@ -10,6 +10,11 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Quick Start: HelloWorld");
+            Console.WriteLine();
+
             string firstDocPath = Constants.SAMPLE_DOCX;
             string secondDocPath = Constants.SAMPLE_DOCX_2;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), Constants.SAMPLE_NAME + Path.GetExtension(firstDocPath));

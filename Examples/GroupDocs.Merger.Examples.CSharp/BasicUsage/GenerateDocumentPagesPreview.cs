@@ -11,6 +11,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
         /// </summary>
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: GenerateDocumentPagesPreview");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_XLSX;
 
             using (Merger merger = new Merger(filePath))

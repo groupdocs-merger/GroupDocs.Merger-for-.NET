@@ -15,6 +15,11 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Quick Start: SetLicenseFromFile");
+            Console.WriteLine();
+
             if (File.Exists(Constants.LicensePath))
             {
                 License license = new License();

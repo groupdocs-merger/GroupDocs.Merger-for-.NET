@@ -12,6 +12,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: GetSupportedFileTypes");
+            Console.WriteLine();
+
             IEnumerable<FileType> fileTypes = FileType
                     .GetSupportedFileTypes()
                     .OrderBy(fileType => fileType.Extension);

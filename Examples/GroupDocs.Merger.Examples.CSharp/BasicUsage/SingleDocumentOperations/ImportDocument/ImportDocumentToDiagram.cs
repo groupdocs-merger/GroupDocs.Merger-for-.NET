@@ -12,6 +12,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: ImportDocumentToDiagram");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_VSDX;
             string imageFilePath = Constants.SAMPLE_EMF;
             string embeddedFilePath = Constants.SAMPLE_PPTX;

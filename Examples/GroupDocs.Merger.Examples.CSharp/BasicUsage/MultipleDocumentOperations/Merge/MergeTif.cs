@@ -12,7 +12,12 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     internal static class MergeTif
     {
         public static void Run()
-        {            
+        {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: MergeTif");
+            Console.WriteLine();
+
             string outputFolder = Constants.GetOutputDirectoryPath();
             string outputFile = Path.Combine(outputFolder, "merged.tif");
             

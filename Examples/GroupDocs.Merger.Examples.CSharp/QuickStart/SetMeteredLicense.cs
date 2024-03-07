@@ -10,6 +10,11 @@ namespace GroupDocs.Merger.Examples.CSharp.QuickStart
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Quick Start: SetMeteredLicense");
+            Console.WriteLine();
+
             string publicKey = "*****";
             string privateKey = "*****";
 

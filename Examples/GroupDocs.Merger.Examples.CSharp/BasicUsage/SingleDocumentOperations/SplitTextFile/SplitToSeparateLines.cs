@@ -11,6 +11,11 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Basic Usage: SplitToSeparateLines");
+            Console.WriteLine();
+
             string filePath = Constants.SAMPLE_TXT;
             string filePathOut = Path.Combine(Constants.GetOutputDirectoryPath(), "line_{0}.{1}");
 

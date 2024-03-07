@@ -13,6 +13,11 @@ namespace GroupDocs.Merger.Examples.CSharp.AdvancedUsage
     {
         public static void Run()
         {
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine();
+            Console.WriteLine("Example Advanced Usage: LoadDocumentFromUrl");
+            Console.WriteLine();
+
             string url = "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples/Resources/SampleFiles/Pdf?raw=true";
 
             using (Stream stream = GetRemoteFile(url))
