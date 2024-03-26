@@ -83,6 +83,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeTiff.Run();
             MergeSvg.Run();
             MergeSvgz.Run();
+            MergeEmf.Run();
             MergeRtf.Run();
             //MergeTex.Run();
             MergeTsv.Run();

@@ -25,6 +25,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\CrossJoinPagesFromVariousDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesUsingPageBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\JoinPagesFromVariousDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeEmf.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Word\MergeWordDocumentsWithPredefinedComplianceMode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Word\MergeWordDocumentsWithoutStartingFromNewPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeMp3.cs" />
