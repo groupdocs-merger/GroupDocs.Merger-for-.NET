@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="GroupDocs.Merger">
-      <Version>24.3.0</Version>
+      <Version>24.4.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
