@@ -4,10 +4,10 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-	
+
   <Import Project="..\GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems" Label="Shared" />
 
   <ItemGroup>
-	<PackageReference Include="GroupDocs.Merger" Version="24.4.0" />
+    <PackageReference Include="GroupDocs.Merger" Version="24.6.0" />
   </ItemGroup>
 </Project>
