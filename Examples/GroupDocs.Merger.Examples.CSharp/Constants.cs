@@ -38,6 +38,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Presentation", "sample_protected.pptx"));
         public static string SAMPLE_PPTX =>
             GetSampleFilePath(Path.Combine("Presentation", "sample.pptx"));
+        public static string SAMPLE_PPTM =>
+            GetSampleFilePath(Path.Combine("Presentation", "sample.pptm"));
 
         // Spreadsheets
         public static string SAMPLE_XLSX_PROTECTED =>
