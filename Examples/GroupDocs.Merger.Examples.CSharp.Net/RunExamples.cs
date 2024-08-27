@@ -24,8 +24,12 @@ namespace GroupDocs.Merger.Examples.CSharp
             HelloWorld.Run();
 
             #endregion // Quick Start
-            
+
             #region Basic Usage
+
+            #region Fluent Syntax
+            FluentSyntax.Run();
+            #endregion
 
             #region Import Documents
             ImportDocumentToPdf.Run();

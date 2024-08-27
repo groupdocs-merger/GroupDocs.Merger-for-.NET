@@ -27,22 +27,28 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             #region Basic Usage
 
-            //ImportDocumentToPdf.Run();
-            //ImportDocumentToWordProcessing.Run();
-            //ImportDocumentToSpreadsheet.Run();
-            //ImportDocumentToPresentation.Run();
-            //ImportDocumentToDiagram.Run();
+            #region Fluent Syntax
+            FluentSyntax.Run();
+            #endregion
+
+            #region Import Documents
+            ImportDocumentToPdf.Run();
+            ImportDocumentToWordProcessing.Run();
+            ImportDocumentToSpreadsheet.Run();
+            ImportDocumentToPresentation.Run();
+            ImportDocumentToDiagram.Run();
+            #endregion
 
             #region Get all supported file types
-            // GetSupportedFileTypes.Run();
+            GetSupportedFileTypes.Run();
             #endregion
 
             #region Get info for the selected document
-            // GetDocumentInformation.Run();
+            GetDocumentInformation.Run();
             #endregion
 
             #region Generate preview for the selected document
-            // GenerateDocumentPagesPreview.Run();
+            GenerateDocumentPagesPreview.Run();
             #endregion
 
             #region Join files
