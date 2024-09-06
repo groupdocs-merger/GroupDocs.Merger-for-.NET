@@ -109,24 +109,24 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_CSV_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.csv"));
 
         // DOC
-        public static string SAMPLE_DOC => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.doc"));
-        public static string SAMPLE_DOC_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.doc"));
+        public static string SAMPLE_DOC => GetSampleFilePath(Path.Combine("WordProcessing", "sample.doc"));
+        public static string SAMPLE_DOC_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.doc"));
 
         // DOCM
-        public static string SAMPLE_DOCM => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.docm"));
-        public static string SAMPLE_DOCM_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.docm"));
+        public static string SAMPLE_DOCM => GetSampleFilePath(Path.Combine("WordProcessing", "sample.docm"));
+        public static string SAMPLE_DOCM_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.docm"));
 
         // DOT
-        public static string SAMPLE_DOT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dot"));
-        public static string SAMPLE_DOT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dot"));
+        public static string SAMPLE_DOT => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dot"));
+        public static string SAMPLE_DOT_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dot"));
 
         // DOTM
-        public static string SAMPLE_DOTM => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotm"));
-        public static string SAMPLE_DOTM_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotm"));
+        public static string SAMPLE_DOTM => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dotm"));
+        public static string SAMPLE_DOTM_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dotm"));
 
         // DOTX
-        public static string SAMPLE_DOTX => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotx"));
-        public static string SAMPLE_DOTX_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.dotx"));
+        public static string SAMPLE_DOTX => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dotx"));
+        public static string SAMPLE_DOTX_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.dotx"));
 
         // EPUB
         public static string SAMPLE_EPUB => GetSampleFilePath(Path.Combine("Ebook", "sample.epub"));
@@ -153,8 +153,8 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_ODS_2 => GetSampleFilePath(Path.Combine("Spreadsheet", "sample.ods"));
 
         // ODT
-        public static string SAMPLE_ODT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.odt"));
-        public static string SAMPLE_ODT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.odt"));
+        public static string SAMPLE_ODT => GetSampleFilePath(Path.Combine("WordProcessing", "sample.odt"));
+        public static string SAMPLE_ODT_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.odt"));
 
         // ONE
         public static string SAMPLE_ONE_2 => GetSampleFilePath(Path.Combine("Note", "sample.one"));
@@ -164,8 +164,8 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_OTP_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.otp"));
 
         // OTT
-        public static string SAMPLE_OTT => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.ott"));
-        public static string SAMPLE_OTT_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.ott"));
+        public static string SAMPLE_OTT => GetSampleFilePath(Path.Combine("WordProcessing", "sample.ott"));
+        public static string SAMPLE_OTT_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.ott"));
         
         // PPS
         public static string SAMPLE_PPS => GetSampleFilePath(Path.Combine("Presentation", "sample.pps"));
@@ -183,8 +183,8 @@ namespace GroupDocs.Merger.Examples.CSharp
         public static string SAMPLE_PPTX_2 => GetSampleFilePath(Path.Combine("Presentation", "sample.pptx"));
 
         // RTF
-        public static string SAMPLE_RTF => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.rtf"));
-        public static string SAMPLE_RTF_2 => GetSampleFilePath(Path.Combine("Wordprocessing", "sample.rtf"));
+        public static string SAMPLE_RTF => GetSampleFilePath(Path.Combine("WordProcessing", "sample.rtf"));
+        public static string SAMPLE_RTF_2 => GetSampleFilePath(Path.Combine("WordProcessing", "sample.rtf"));
 
         // TEX
         public static string SAMPLE_TEX => GetSampleFilePath(Path.Combine("PageDescriptionLanguage", "sample.tex"));
