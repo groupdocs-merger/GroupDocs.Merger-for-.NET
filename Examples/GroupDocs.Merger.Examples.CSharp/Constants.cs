@@ -31,7 +31,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             GetSampleFilePath(Path.Combine("Pdf", "sample.pdf"));
         public static string SAMPLE_PDF_2 =>
             GetSampleFilePath(Path.Combine("Pdf", "sample_simple.pdf"));
-        
+        public static string SAMPLE_PDF_BOOKMARKS =>
+            GetSampleFilePath(Path.Combine("Pdf", "sample_bookmarks.pdf"));
 
         // Presentations
         public static string SAMPLE_PPTX_PROTECTED =>
