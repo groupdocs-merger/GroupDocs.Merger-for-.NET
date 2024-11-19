@@ -121,6 +121,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergePdfUseBookmarks.Run();
             // Word
             MergeWordDocumentsWithoutStartingFromNewPage.Run();
+            MergeWordDocumentsWithoutSectionBreaks.Run();
             MergeWordDocumentsWithPredefinedComplianceMode.Run();
             #endregion
 
@@ -175,6 +176,7 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             #region Security - check, add, update, remove document password
 
+            AddPdfDocumentPasswordWithPermissions.Run();
             AddDocumentPassword.Run();
             UpdateDocumentPassword.Run();
             CheckDocumentPasswordProtection.Run();

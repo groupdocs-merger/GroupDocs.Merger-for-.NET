@@ -30,6 +30,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeEmz.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergePptm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Pdf\MergePdfUseBookmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Word\MergeWordDocumentsWithoutSectionBreaks.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Word\MergeWordDocumentsWithPredefinedComplianceMode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\Word\MergeWordDocumentsWithoutStartingFromNewPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeMp3.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeXltm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeXltx.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\MultipleDocumentOperations\Merge\MergeXps.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\AddPdfDocumentPasswordWithPermissions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\AddDocumentPassword.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\CheckDocumentPasswordProtection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SecurityOperations\RemoveDocumentPassword.cs" />
