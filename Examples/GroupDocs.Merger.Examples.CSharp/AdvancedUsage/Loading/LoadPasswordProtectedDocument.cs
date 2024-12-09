@@ -20,7 +20,7 @@ namespace GroupDocs.Merger.Examples.CSharp.AdvancedUsage
             // The path to the documents directory.
             string filePath = Constants.SAMPLE_DOCX_PROTECTED;
 
-            LoadOptions loadOptions = new LoadOptions("SAMPLE_PASSWORD");
+            LoadOptions loadOptions = new LoadOptions(Constants.SAMPLE_PASSWORD);
 
             using (Merger merger = new Merger(filePath, loadOptions))
             {
