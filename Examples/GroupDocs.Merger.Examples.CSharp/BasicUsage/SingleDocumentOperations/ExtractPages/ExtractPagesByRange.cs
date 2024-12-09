@@ -27,7 +27,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
                 merger.Save(filePathOut);
             }
 
-            Console.WriteLine("Source document was extractmed successfully.");
+            Console.WriteLine("Source document pages were extracted successfully.");
             Console.WriteLine($"Check output {filePathOut}.");
         }
     }

@@ -27,7 +27,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
                 merger.Save(filePathOut);
             }
 
-            Console.WriteLine("Source document pages was removed successfully.");
+            Console.WriteLine("Source document pages were removed successfully.");
             Console.WriteLine($"Check output {filePathOut}.");
         }
     }
