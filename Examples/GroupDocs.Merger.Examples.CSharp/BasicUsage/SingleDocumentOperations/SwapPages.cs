@@ -29,7 +29,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
                 merger.Save(filePathOut);
             }
 
-            Console.WriteLine("Source document was swapped successfully.");
+            Console.WriteLine("Source document pages were swapped successfully.");
             Console.WriteLine($"Check output {filePathOut}.");
         }
     }

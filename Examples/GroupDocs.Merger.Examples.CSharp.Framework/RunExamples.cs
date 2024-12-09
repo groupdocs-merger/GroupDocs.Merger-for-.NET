@@ -86,6 +86,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             MergeGif.Run();
             MergeTif.Run();
             MergeTiff.Run();
+            MergeToPagedTiff.Run();
             MergeSvg.Run();
             MergeSvgz.Run();
             MergeEmf.Run();
@@ -192,8 +193,8 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             LoadDocumentFromLocalDisk.Run();
             LoadDocumentFromStream.Run();
-            //LoadDocumentFromUrl.Run();
-            //LoadPasswordProtectedDocument.Run();
+            LoadDocumentFromUrl.Run();
+            LoadPasswordProtectedDocument.Run();
 
             #endregion // Loading
 

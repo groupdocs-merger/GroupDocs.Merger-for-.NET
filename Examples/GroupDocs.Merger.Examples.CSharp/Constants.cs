@@ -7,7 +7,7 @@ namespace GroupDocs.Merger.Examples.CSharp
     {
         public static bool IsLicensed = false;
 
-        public const string LicensePath = "c://License/Conholdate.Total.Product.Family.lic";
+        public const string LicensePath = "c://Licenses/Conholdate.Total.Product.Family.lic";
         
         public const string SamplesPath = @"./Resources/SampleFiles";
         public const string OutputPath = @"./Results/Output";

@@ -27,7 +27,7 @@ namespace GroupDocs.Merger.Examples.CSharp.BasicUsage
                 merger.Save(filePathOut);
             }
 
-            Console.WriteLine("Source document was rotated successfully.");
+            Console.WriteLine("Source document pages were rotated successfully.");
             Console.WriteLine($"Check output {filePathOut}.");
         }
     }
