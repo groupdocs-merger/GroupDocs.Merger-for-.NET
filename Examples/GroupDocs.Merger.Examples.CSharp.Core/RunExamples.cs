@@ -161,6 +161,8 @@ namespace GroupDocs.Merger.Examples.CSharp
 
             #region Rotate document pages
             RotatePages.Run();
+            RotateTiff.Run();
+            RotateTifPages.Run();
             #endregion
 
             #region Swap document pages

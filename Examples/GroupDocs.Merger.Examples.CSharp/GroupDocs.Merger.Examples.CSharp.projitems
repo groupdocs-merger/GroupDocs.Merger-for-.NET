@@ -105,7 +105,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToWordProcessing.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\MovePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RemovePages.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotateTiff.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotateTifPages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotatePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToMultiPageDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRange.cs" />
