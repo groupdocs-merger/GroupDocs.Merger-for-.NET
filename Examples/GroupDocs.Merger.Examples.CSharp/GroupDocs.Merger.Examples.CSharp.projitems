@@ -105,9 +105,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\ImportDocument\ImportDocumentToWordProcessing.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\MovePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RemovePages.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotateTiff.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotateTifPages.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\RotatePages\RotatePages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotateBmp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotatePng.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotateJpg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotateTiff.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotateTifPages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\Rotate\RotatePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToMultiPageDocuments.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\SingleDocumentOperations\SplitDocument\SplitToSinglePagesByRange.cs" />

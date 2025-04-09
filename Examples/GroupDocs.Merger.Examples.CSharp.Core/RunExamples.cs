@@ -159,7 +159,10 @@ namespace GroupDocs.Merger.Examples.CSharp
             ChangePageOrientation.Run();
             #endregion
 
-            #region Rotate document pages
+            #region Rotate
+            RotateBmp.Run();
+            RotateJpg.Run();
+            RotatePng.Run();
             RotatePages.Run();
             RotateTiff.Run();
             RotateTifPages.Run();
