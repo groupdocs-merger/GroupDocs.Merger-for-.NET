@@ -3,7 +3,7 @@
 This package contains C# Example Project for [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net) and sample input templates used in the examples.
 
 <p align="center">
-  <a title="Download complete GroupDocs.Merger for .NET Example source code" href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/archive/master.zip">
+  <a title="Download complete GroupDocs.Merger examples, plugins and showcase projects for .NET" href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>

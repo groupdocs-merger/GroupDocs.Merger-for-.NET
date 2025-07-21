@@ -4,7 +4,7 @@
 
 <p align="center">
 
-  <a title="Download complete GroupDocs.Merger for .NET source code" href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/archive/master.zip">
+  <a title="Download complete GroupDocs.Merger examples, plugins and showcase projects for .NET" href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
@@ -12,7 +12,7 @@
 Directory | Description
 --------- | -----------
 [Demos](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Demos) | Source code for live demos hosted at https://products.groupdocs.app/merger/family.
-[Docs](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Docs)  | Product documentation containing the Developer's Guide, Release Notes and more.
+[Docs](https://docs.groupdocs.com/merger/net/)  | Product documentation containing the Developer's Guide, Release Notes and more.
 [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/tree/master/Examples)  | C# examples and sample files that will help you learn how to use product features. 
 
 ## Document Merger & Splitting Features
