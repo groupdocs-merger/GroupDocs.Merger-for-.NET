@@ -35,7 +35,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             ImportDocumentToPdf.Run();
             ImportDocumentToWordProcessing.Run();
             ImportDocumentToSpreadsheet.Run();
-            ImportDocumentToPresentation.Run();
+            //ImportDocumentToPresentation.Run();
             ImportDocumentToDiagram.Run();
             #endregion
 
@@ -58,7 +58,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             #endregion
 
             #region Merge files
-            MergeCsv.Run();
+            //MergeCsv.Run();
             MergeDoc.Run();
             MergeDocm.Run();
             MergeDocx.Run();
@@ -136,6 +136,11 @@ namespace GroupDocs.Merger.Examples.CSharp
                 CrossJoinPagesFromVariousDocuments.Run();
                 CrossJoinImagesToPdf.Run();
             }
+            #endregion
+
+            #region Save document
+            // Accesibility Settings
+            EnableAutoTagging.Run();
             #endregion
 
             #region Split document

@@ -138,6 +138,11 @@ namespace GroupDocs.Merger.Examples.CSharp
             }
             #endregion
 
+            #region Save document
+            // Accesibility Settings
+            EnableAutoTagging.Run();
+            #endregion
+
             #region Split document
             SplitToMultiPageDocuments.Run();
             SplitToSinglePages.Run();
