@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,8 +8,7 @@
   <Import Project="..\GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="GroupDocs.Merger.CrossPlatform" Version="25.9.0" />
-    <PackageReference Include="System.Drawing.Common" Version="6.0.0.0" />
-    <PackageReference Include="SkiaSharp" Version="3.116.0.0" />
+	  <PackageReference Include="GroupDocs.Merger" Version="26.4.0" />
   </ItemGroup>
+
 </Project>
