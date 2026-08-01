@@ -8,7 +8,7 @@
   <Import Project="..\GroupDocs.Merger.Examples.CSharp\GroupDocs.Merger.Examples.CSharp.projitems" Label="Shared" />
 
   <ItemGroup>
-	  <PackageReference Include="GroupDocs.Merger" Version="26.4.0" />
+	  <PackageReference Include="GroupDocs.Merger" Version="26.7.0" />
   </ItemGroup>
 
 </Project>
