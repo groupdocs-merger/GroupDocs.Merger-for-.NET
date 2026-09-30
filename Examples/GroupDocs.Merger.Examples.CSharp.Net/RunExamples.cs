@@ -55,6 +55,7 @@ namespace GroupDocs.Merger.Examples.CSharp
             JoinMultipleDocuments.Run();
             JoinPagesFromVariousDocuments.Run();
             JoinPagesUsingPageBuilder.Run();
+            MergeSpreadsheetRows.Run();
             #endregion
 
             #region Merge files
