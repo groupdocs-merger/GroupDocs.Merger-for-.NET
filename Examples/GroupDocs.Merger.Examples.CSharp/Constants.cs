@@ -136,6 +136,7 @@ namespace GroupDocs.Merger.Examples.CSharp
         // HTML
         public static string SAMPLE_HTML => GetSampleFilePath(Path.Combine("Web", "sample.html"));
         public static string SAMPLE_HTML_2 => GetSampleFilePath(Path.Combine("Web", "sample.html"));
+        public static string SAMPLE_HTML_WITH_EXTERNAL_RESOURCES => GetSampleFilePath(Path.Combine("Web", "sample-external-resources.html"));
 
         // MHT
         public static string SAMPLE_MHT => GetSampleFilePath(Path.Combine("Web", "sample.mht"));

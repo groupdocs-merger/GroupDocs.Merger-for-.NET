@@ -207,6 +207,8 @@ namespace GroupDocs.Merger.Examples.CSharp
             LoadDocumentFromStream.Run();
             LoadDocumentFromUrl.Run();
             LoadPasswordProtectedDocument.Run();
+            LoadExternalResourcesFromTrustedLocations.Run();
+            DecideExternalResourcesWithHandler.Run();
 
             #endregion // Loading
 
